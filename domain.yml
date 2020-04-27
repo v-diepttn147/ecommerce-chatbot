@@ -1,0 +1,36 @@
+intents:
+  - greet
+  - goodbye
+  - introduce
+  - thanks
+
+responses:
+  utter_greet:
+  - text: "Xin chào"
+  - text: "Chào bạn"
+
+  utter_bot:
+  - text: "Mình là nhân viên bán hàng của shop!"
+  - text: "Mình là bot bán hàng!"
+
+  utter_can_do:
+  - text: "Mình có thể tìm kiếm cuốn sách tốt nhất cho bạn, chỉ cần bạn nhập câu hỏi!"
+
+  utter_thanks:
+    - text: "Cảm ơn bạn!"
+    - text: "Cảm ơn bạn nhìu!"
+    - text: "Cảm ơn bạn nhìu lắm nè!"
+
+  utter_goodbye:
+  - text: "Tạm biệt và hẹn gặp lại bạn!"
+
+  utter_default:
+  - text: "Hong hỉu bạn êi"
+
+actions:
+  - utter_greet
+  - utter_bot
+  - utter_can_do
+  - utter_thanks
+  - utter_goodbye
+  - utter_default
