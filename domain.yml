@@ -3,6 +3,18 @@ intents:
   - goodbye
   - introduce
   - thanks
+  - book_search_name
+  - book_search_genre
+
+entities: 
+  - book_name
+  - book_genre
+
+slots:
+  book_name:
+    type: text
+  book_genre:
+    type: text
 
 responses:
   utter_greet:
@@ -34,3 +46,5 @@ actions:
   - utter_thanks
   - utter_goodbye
   - utter_default
+  - action_book_search_name
+  - action_book_search_genre
