@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Tôi muốn kiểm tra số dư tài khoản [HFNGU947GH]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 35,
+        "end": 45,
+        "value": "HFNGU947GH",
+        "entity": "userAddress",
+        "confidence": 0.9031272140499587,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

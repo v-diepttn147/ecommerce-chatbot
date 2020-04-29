@@ -5,15 +5,23 @@ intents:
   - thanks
   - book_search_name
   - book_search_genre
+  - get_balance
+  - give_userAddress
+  - get_balance_with_userAddress
+  - user_confirm
+  - user_deny
 
 entities: 
   - book_name
   - book_genre
+  - userAddress
 
 slots:
   book_name:
     type: text
   book_genre:
+    type: text
+  userAddress:
     type: text
 
 responses:
@@ -28,6 +36,18 @@ responses:
   utter_can_do:
   - text: "Mình có thể tìm kiếm cuốn sách tốt nhất cho bạn, chỉ cần bạn nhập câu hỏi!"
 
+  utter_get_balance:
+  - text: "Địa chỉ của bạn là gì?"  
+
+  utter_is_get_balance:
+  - text: "Bạn muốn kiểm tra số dư phải không?"
+
+  utter_confirm:
+  - text: "Mình đã nhận được thông tin của bạn nhé"
+
+  utter_fine:
+  - text: "Xin lỗi bạn, vậy mình có thể giúp gì cho bạn? :)"
+
   utter_thanks:
     - text: "Cảm ơn bạn!"
     - text: "Cảm ơn bạn nhìu!"
@@ -37,14 +57,19 @@ responses:
   - text: "Tạm biệt và hẹn gặp lại bạn!"
 
   utter_default:
-  - text: "Hong hỉu bạn êi"
+  - text: "Hmm.. Mình không hiểu lắm, bạn có thể nhắc lại cách khác được không :D"
 
 actions:
   - utter_greet
   - utter_bot
   - utter_can_do
+  - utter_get_balance
+  - utter_is_get_balance
+  - utter_confirm
+  - utter_fine
   - utter_thanks
   - utter_goodbye
   - utter_default
   - action_book_search_name
   - action_book_search_genre
+  - action_get_balance

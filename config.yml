@@ -2,15 +2,16 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: vi
 pipeline: supervised_embeddings
+  
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
-    max_history: 3
+    max_history: 5
   - name: TEDPolicy
     epochs: 100
-    max_history: 3
+    max_history: 5
   - name: MappingPolicy
   - name: FallbackPolicy
     nlu_threshold: 0.8

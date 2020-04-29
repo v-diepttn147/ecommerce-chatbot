@@ -13,7 +13,30 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 
+class ActionGetBalance(Action):
+    """
+    Get User Balance (userAddress): Yêu cầu xem số dư tài khoản dựa trên địa chỉ cung cấp.
+    """
+
+    def name(self):
+        return 'action_get_balance'
+    
+    def run(self, dispatcher, tracker, domain):
+        userAddress = tracker.get_slot('userAddress')
+        if userAddress:
+            balance = 1000 # API HERE
+            dispatcher.utter_message('Số dư của tài khoản ' + userAddress + ' là: ' + str(balance))
+        else:
+            dispatcher.utter_message('Có lỗi xảy ra, bạn vui lòng thực hiện lại yêu cầu nhé! :(')
+        return []
+
+        
+# Test function
 class ActionBookSearchName(Action):
+    """
+    Find book by its name.
+    """
+
     def name(self):
         return 'action_book_search_name'
 
@@ -24,8 +47,13 @@ class ActionBookSearchName(Action):
         else:
             dispatcher.utter_message('Hong tìm ra quyển sách với tên bạn cần :(')
         return []
-        
+
+# Test function
 class ActionBookSearchGenre(Action):
+    """
+    Find books by its genre.
+    """
+
     def name(self):
         return 'action_book_search_genre'
 
@@ -36,8 +64,6 @@ class ActionBookSearchGenre(Action):
         else:
             dispatcher.utter_message('Hong tìm ra quyển sách thể loại bạn cần :(')
         return []
-
-
 
 
 #
