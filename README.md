@@ -11,7 +11,7 @@ rasa train
 rasa run actions
 ```
 
-## Run the following code in another terminal
+## Run the following code in another terminal to chat with bot
 
 ```
 rasa shell
