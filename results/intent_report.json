@@ -1,23 +1,9 @@
 {
-  "book_search_name": {
+  "get_transaction_info_with_transactionId": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "book_search_genre": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "get_balance_with_userAddress": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
+    "support": 26,
     "confused_with": {}
   },
   "get_balance": {
@@ -27,11 +13,11 @@
     "support": 13,
     "confused_with": {}
   },
-  "greet": {
+  "book_search_name": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 12,
+    "support": 4,
     "confused_with": {}
   },
   "introduce": {
@@ -41,22 +27,6 @@
     "support": 8,
     "confused_with": {}
   },
-  "thanks": {
-    "precision": 0.8333333333333334,
-    "recall": 1.0,
-    "f1-score": 0.9090909090909091,
-    "support": 10,
-    "confused_with": {}
-  },
-  "user_confirm": {
-    "precision": 1.0,
-    "recall": 0.875,
-    "f1-score": 0.9333333333333333,
-    "support": 16,
-    "confused_with": {
-      "thanks": 2
-    }
-  },
   "give_userAddress": {
     "precision": 1.0,
     "recall": 1.0,
@@ -64,11 +34,18 @@
     "support": 27,
     "confused_with": {}
   },
-  "goodbye": {
+  "greet": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
+    "support": 12,
+    "confused_with": {}
+  },
+  "get_balance_with_userAddress": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
     "confused_with": {}
   },
   "user_deny": {
@@ -78,17 +55,61 @@
     "support": 13,
     "confused_with": {}
   },
-  "accuracy": 0.9857142857142858,
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "get_transaction_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "user_confirm": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 16,
+    "confused_with": {}
+  },
+  "give_transaction_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "thanks": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "user_confirm": 2
+    }
+  },
+  "book_search_genre": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "accuracy": 0.9904761904761905,
   "macro avg": {
-    "precision": 0.9848484848484849,
-    "recall": 0.9886363636363636,
-    "f1-score": 0.9856749311294766,
-    "support": 140
+    "precision": 0.9920634920634921,
+    "recall": 0.9857142857142858,
+    "f1-score": 0.9878618113912232,
+    "support": 210
   },
   "weighted avg": {
-    "precision": 0.9880952380952381,
-    "recall": 0.9857142857142858,
-    "f1-score": 0.9858874458874459,
-    "support": 140
+    "precision": 0.9915343915343916,
+    "recall": 0.9904761904761905,
+    "f1-score": 0.9902272019919078,
+    "support": 210
   }
 }

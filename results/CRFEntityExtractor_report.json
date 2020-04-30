@@ -1,15 +1,15 @@
 {
+  "userAddress": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53
+  },
   "book_genre": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 10
-  },
-  "userAddress": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 51
   },
   "book_name": {
     "precision": 1.0,
@@ -17,22 +17,28 @@
     "f1-score": 1.0,
     "support": 8
   },
+  "transactionId": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53
+  },
   "micro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 69
+    "support": 124
   },
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 69
+    "support": 124
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 69
+    "support": 124
   }
 }
