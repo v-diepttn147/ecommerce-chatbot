@@ -18,5 +18,3 @@ rasa shell
 ```
 
 Entity extracted from the message will be printed in the action (first) terminal
-
-## This is for testing purpose
