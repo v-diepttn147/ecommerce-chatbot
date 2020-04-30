@@ -125,6 +125,83 @@
 ## regex: userAddress
 - \b[0-9A-Z]{10}\b
 
+## intent: get_transaction_info
+- Tôi muốn kiểm tra thông tin giao dịch
+- Kiểm tra thông tin giao dịch
+- Xem thông tin giao dịch
+- Truy xuất thông tin giao dịch
+- Check transaction information
+- Thông tin giao dịch
+- Transaction information
+- Muốn biết thông tin giao dịch
+- Mình muốn xem thông tin giao dịch
+- Tôi muốn kiểm tra giao dịch
+- Tớ muốn xem giao dịch
+- Chị muốn xem giao dịch
+- Anh cần phải xem giao dịch
+- Có thể cho tôi biết thông tin về giao dịch
+
+## intent: give_transaction_info
+- Transaction id của tôi là [f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16](transactionId)
+- transaction id: [a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d](transactionId)
+- here is transaction id: [4ce18f49ba153a51bcda9bb80d7f978e3de6e81b5fc326f00465464530c052f4](transactionId)
+- Đây bạn [169e1e83e930853391bc6f35f605c6754cfead57cf8387639d3b4096c54f18f4](transactionId)
+- Đây bạn: [f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16](transactionId)
+- [335005249ff3510f089ec5852c55ac22a5ceb3d3bbc342b18ea70e216e2a0a4a](transactionId)
+- [18132f5a06358117530a64c68f8ba3b50616b5a138eb5a7d6885b48b97b2a4d3](transactionId)
+- [bc9217dbea5e16f25a339dc96f889fe40c20a614d3c6abe07de1c013125e15c2](transactionId)
+- [84ef3cb68cf86b1637eace268e88079a378b33f2d6c4b3f92165cc24e4c01f1a](transactionId)
+- [fbc7821755c2098a4bbdc5817630385270cdd3726fdf545de451710aca7a10e1](transactionId)
+- [4f633ebba4eae6c5357e5688c5e14261c04be2e1cdce0ad92a9fe64ddda2f464](transactionId)
+- [91a2da5bf7b29e5da6404d8a6c03c1ed41022ae0d4c91f218b22c12c890e6684](transactionId)
+- [1ece2ee1fe5ea9911152712b60ddc1cd20fd7791bcf88f824ccf8ccf2a8d8fe6](transactionId)
+- [98bd63e17c42a8a400150076d003a4e5e76427779515b7fd0ef60298b8cf82b6](transactionId)
+- [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
+- [c72014220ebb55c2578c9ab6decc8f691ece6ba1c2cc27b70abfb2a9e0956262](transactionId)
+- [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- [c7b123b786d961188c80861af7bdd8f36f5ac3380801494118ade26d2c938f44](transactionId)
+- [4f4ba05e29f92aac0eb21a7a4693b7dae7f5d930f6923c4cdedc35576dc0f0e3](transactionId)
+- [97a0c183a0bb237c053bfbefad5d5065fb6a26e9d8579aa91e5051cee8931e24](transactionId)
+- transaction id là [287335d45a7f02b4d25e908dc55269a5f6c3ab4416c787006dc028be40be2682](transactionId)
+- id là [53fdd824df9f8c8d25a479f92dc34f33df44d4727b198e9dc9511100147ea2be](transactionId)
+- Của tôi là [53fdd824df9f8c8d25a479f92dc34f33df44d4727b198e9dc9511100147ea2be](transactionId)
+- id transaction [27642acb237d1e8824c487fab31e89a298c4889e850e58af487c9729f70b4fc0](transactionId)
+- id nè: [3a75fb15e928c92f0a1b7cd388a090a24fb5fa5b15a959a48637129113a44057](transactionId)
+- transaction id của tôi là [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId)
+- giao dịch của tôi [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- số giao dịch: [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d]
+
+## intent: get_transaction_info_with_transactionId
+- số giao dịch là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), tôi muốn xem thông tin
+- số giao dịch, transaction id: [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), cần xem thông tin
+- Hãy cho tôi biết thông tin giao dịch của [27642acb237d1e8824c487fab31e89a298c4889e850e58af487c9729f70b4fc0](transactionId)
+- Kiểm tra thông tin giao dịch [4f4ba05e29f92aac0eb21a7a4693b7dae7f5d930f6923c4cdedc35576dc0f0e3](transactionId) giùm mình
+- [53fdd824df9f8c8d25a479f92dc34f33df44d4727b198e9dc9511100147ea2be](transactionId), kiểm tra giúp tôi
+- Tôi cần kiểm tra thông tin với số giao dịch là [c7b123b786d961188c80861af7bdd8f36f5ac3380801494118ade26d2c938f44](transactionId)
+- Thông tin số giao dịch [53fdd824df9f8c8d25a479f92dc34f33df44d4727b198e9dc9511100147ea2be](transactionId)
+- Check transaction info of [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- Kiểm tra thông tin giao dịch [27642acb237d1e8824c487fab31e89a298c4889e850e58af487c9729f70b4fc0](transactionId)
+- Kiểm tra thông tin giao dịch với id [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId)
+- Tôi muốn kiểm tra thông tin giao dịch của [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- Tôi muốn kiểm tra thông tin giao dịch, số giao dịch là là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- kiểm tra số dư, [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
+- [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId) kiểm tra thông tin
+- kiểm tra giùm thông tin giao dịch ở số [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- kiểm tra thông tin giao dịch [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
+- Địa chỉ giao dịch là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), vui lòng kiểm tra giúp thông tin
+- Tôi cần kiểm tra tài khoản, tài khoản của tôi là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- kiểm tra thông tin với giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- hi, kiểm tra giùm mình thông tin ở giao dịch [335005249ff3510f089ec5852c55ac22a5ceb3d3bbc342b18ea70e216e2a0a4a](transactionId) với nhé, cảm ơn
+- cho tôi hỏi thông tin giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId) được không
+- bạn tra giúp mình thông tin giao dịch [335005249ff3510f089ec5852c55ac22a5ceb3d3bbc342b18ea70e216e2a0a4a](transactionId) với
+- số giao dịch là [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId), tôi muốn xem thông tin
+- số giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), kiểm tra giùm nhé
+- [c7b123b786d961188c80861af7bdd8f36f5ac3380801494118ade26d2c938f44](transactionId), kiểm tra thông tin
+- [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId) kiểm tra thông tin giao dịch
+
+## regex: transactionId
+- \b[A-Fa-f0-9]{64}\b
+
 ## intent: user_confirm
 - Đúng rồi
 - Đúng

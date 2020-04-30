@@ -40,6 +40,31 @@
   - utter_confirm
   - action_get_balance
 
+## get transaction 1
+* get_transaction_info
+  - utter_get_transaction_info
+* give_transaction_info
+  - utter_confirm
+  - action_get_transaction_info
+
+## get transaction 2
+* give_transaction_info
+  - utter_is_get_transaction_info
+* user_confirm
+  - utter_confirm
+  - action_get_transaction_info
+
+## get transaction 3
+* give_transaction_info
+  - utter_is_get_transaction_info
+* user_deny
+  - utter_fine
+
+## get transaction 4
+* get_transaction_info_with_transactionId
+  - utter_confirm
+  - action_get_transaction_info
+
 ## say thanks
 * thanks
   - utter_thanks

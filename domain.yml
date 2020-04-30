@@ -8,6 +8,9 @@ intents:
   - get_balance
   - give_userAddress
   - get_balance_with_userAddress
+  - get_transaction_info
+  - give_transaction_info
+  - get_transaction_info_with_transactionId
   - user_confirm
   - user_deny
 
@@ -15,6 +18,7 @@ entities:
   - book_name
   - book_genre
   - userAddress
+  - transactionId
 
 slots:
   book_name:
@@ -22,6 +26,8 @@ slots:
   book_genre:
     type: text
   userAddress:
+    type: text
+  transactionId:
     type: text
 
 responses:
@@ -42,8 +48,14 @@ responses:
   utter_is_get_balance:
   - text: "Bạn muốn kiểm tra số dư phải không?"
 
+  utter_get_transaction_info:
+  - text: "Xin vui lòng cung cấp số giao dịch?"  
+
+  utter_is_get_transaction_info:
+  - text: "Bạn muốn kiểm tra thông tin giao dịch phải không?"
+
   utter_confirm:
-  - text: "Mình đã nhận được thông tin của bạn nhé"
+  - text: "Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ..."
 
   utter_fine:
   - text: "Xin lỗi bạn, vậy mình có thể giúp gì cho bạn? :)"
@@ -73,3 +85,4 @@ actions:
   - action_book_search_name
   - action_book_search_genre
   - action_get_balance
+  - action_get_transaction_info
