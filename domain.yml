@@ -57,7 +57,7 @@ responses:
   - text: "Tạm biệt và hẹn gặp lại bạn!"
 
   utter_default:
-  - text: "Hmm.. Mình không hiểu lắm, bạn có thể nhắc lại cách khác được không :D"
+  - text: "Hmm.. Mình không hiểu lắm, bạn có thể nói lại theo một cách khác được không :D"
 
 actions:
   - utter_greet
