@@ -5,8 +5,11 @@
 - Hello
 - Hế lô
 - Helu
+- Hé lu
 - Alo
+- À lố
 - Chào bạn
+- Hi pạn
 - Bạn ơi
 - Chào buổi sáng
 - Chào buổi tối
@@ -206,6 +209,8 @@
 - Đúng rồi
 - Đúng
 - Vâng
+- Vâng ạ
+- Đúng rồi ạ
 - Ừ
 - Ờ
 - Yes
@@ -222,6 +227,7 @@
 
 ## intent: user_deny
 - Không phải
+- Không phải ạ
 - Không
 - Hong
 - No
@@ -234,6 +240,7 @@
 - Bé cái nhầm rồi
 - Sai rồi
 - Hong đúng òi
+- Hong hong
 
 ## intent:goodbye
 - Chào tạm biệt
@@ -244,3 +251,5 @@
 - Bai bai
 - Bye
 - Bai
+- pi pi
+- bibi
