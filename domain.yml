@@ -13,12 +13,20 @@ intents:
   - get_transaction_info_with_transactionId
   - user_confirm
   - user_deny
+  - gen_address
+  - send_transaction
+  - give_send_transaction_info
+  - send_transaction_with_info
 
 entities: 
   - book_name
   - book_genre
   - userAddress
   - transactionId
+  - senderAddress
+  - destAddress
+  - privateKey
+  - amount
 
 slots:
   book_name:
@@ -28,6 +36,14 @@ slots:
   userAddress:
     type: text
   transactionId:
+    type: text
+  senderAddress:
+    type: text
+  destAddress:
+    type: text
+  privateKey:
+    type: text
+  amount:
     type: text
 
 responses:
@@ -53,6 +69,9 @@ responses:
 
   utter_is_get_transaction_info:
   - text: "Bạn muốn kiểm tra thông tin giao dịch phải không?"
+
+  utter_get_send_transaction_info:
+    - text: "Xin vui lòng cung cấp tài khoản nguồn, tài khoản đích, Private Key và số lượng tiền muốn chuyển lần lượt ở các định dạng như sau\n - se:<sender-address>\n - de:<destination-address>\n - pk:<private-key>\n - am:<amount>\n Ví dụ: \n - se:bc1qux353qe8xvcuhs22rjr5r55l9szgxzjfsqcedt\n - de:bc1ql9kwhqg0al7p5wsnlvkm9zfnj06k6vk4s3w4ww\n - pk:L4Qsz7UgetknNksuvqRvEv5fiPhTYadtPh3xjWnAE4PvDQxJgczc\n - am:0.1242356"
 
   utter_confirm:
   - text: "Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ..."
@@ -86,3 +105,5 @@ actions:
   - action_book_search_genre
   - action_get_balance
   - action_get_transaction_info
+  - action_gen_address
+  - action_send_transaction

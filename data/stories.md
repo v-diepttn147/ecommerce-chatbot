@@ -65,6 +65,23 @@
   - utter_confirm
   - action_get_transaction_info
 
+## generate address
+* gen_address
+  - utter_confirm
+  - action_gen_address
+
+## send transaction 1
+* send_transaction
+  - utter_get_send_transaction_info
+* give_send_transaction_info
+  - utter_confirm
+  - action_send_transaction
+
+## send transaction 2
+* send_transaction_with_info
+  - utter_confirm
+  - action_send_transaction
+
 ## say thanks
 * thanks
   - utter_thanks

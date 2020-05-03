@@ -143,6 +143,7 @@
 - Chị muốn xem giao dịch
 - Anh cần phải xem giao dịch
 - Có thể cho tôi biết thông tin về giao dịch
+- Tra cứu giao dịch
 
 ## intent: give_transaction_info
 - Transaction id của tôi là [f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16](transactionId)
@@ -204,6 +205,81 @@
 
 ## regex: transactionId
 - \b[A-Fa-f0-9]{64}\b
+
+## intent: gen_address
+- tôi muốn tạo địa chỉ
+- khởi tạo địa chỉ
+- tôi muốn tạo địa chỉ
+- khởi tạo địa chỉ
+- lập cho tôi một địa chỉ
+- tạo cho tôi một địa chỉ
+- giúp tôi tạo một địa chỉ
+- hãy cho tôi một địa chỉ
+- đăng ký cho tôi một địa chỉ
+- giúp mình đăng ký địa chỉ
+- đăng ký cho anh địa chỉ
+- đăng ký địa chỉ
+- tôi muốn một địa chỉ
+- tôi cần một địa chỉ
+- tạo cho tôi địa chỉ
+- đăng ký địa chỉ
+- tạo địa chỉ
+- tạo mới địa chỉ
+- đăng ký mới địa chỉ
+- tạo địa chỉ mới
+- cho tôi một địa chỉ giao dịch
+- đăng ký địa chỉ
+
+## intent: send_transaction
+- tôi muốn chuyển tiền
+- chuyển tiền
+- giúp tôi chuyển tiền
+- giúp tôi chuyển khoản
+- tôi cần chuyển tiền
+- giao dịch chuyển tiền
+- tôi cần chuyển tiền
+- chuyển tiền giúp tôi
+- chuyển khoản giúp mình
+
+## intent: give_send_transaction_info
+- địa chỉ người chuyển [se:bc1qux353qe8xvcuhs22rjr5r55l9szgxzjfsqcedt](senderAddress), địa chỉ người nhận [de:bc1ql9kwhqg0al7p5wsnlvkm9zfnj06k6vk4s3w4ww](destAddress), private key [pk:L4Qsz7UgetknNksuvqRvEv5fiPhTYadtPh3xjWnAE4PvDQxJgczc](privateKey), số tiền [am:0.1242356](amount) bitcoin
+- tài khoản chuyển [se:14cKdtfUs3izLiqZwmPnsS3s9scB8NKEk8](senderAddress), tài khoản người nhận [de:14UXkYr5FDgBL6akHhn8oG7QK5rmjh5KYV](destAddress), private key [pk:L22ByfcLCRML6avU5aHKBmfsAgFLpVPHaHUTmPGy76BGgyG7Fp9M](privateKey), số lượng [am:1.234324](amount) bitcoin
+- người chuyển [se:bc1qmdu29dl76ps4a5eln94ld8x2mvjlu5q89mkddt](senderAddress), người nhận [de:bc1qvmknvexg42g2rgpkhx3rzl4f8ud72p6rmtfs5r](destAddress), private key [pk:L2xEuSeDNs4QiMiP5s3YuFP5AY6oxHv1kRcwcmiBqb7UgraMWyiy](privateKey), số lượng tiền [am:99.1234](amount) bitcoin
+- chuyển [se:1Gx2ZDMJHqZqApJfeDRauimNiK5aPZdSvn](senderAddress), nhận [de:14XuWjfRP5vYucFpRotaCTCfAZB6evT3gv](destAddress), private key [pk:L5hxo59m6VyX79RRgUUJ99sKGbM9QgsF4qtecNQj8vExaf8pn9XN](privateKey), số tiền [am:23.23424](amount) bitcoin
+- chuyển khoản từ [se:1Mxx3x1mfScVsP5v3aswWFfdmevq1ZcMyb](senderAddress), đến [de:1FH1k9oXFySFtHt9YwZCNzu84zuku6Gatj](destAddress), khóa riêng tư [pk:KxPUACJeUYf9t4szwHxc54SkGomtYCYg3v3VxmdRXMZ6pp2RK7pu](privateKey), khoản tiền [am:15.67544](amount) bitcoin
+- nguồn [se:1ABNPDtvsazmugcTvLykzPgWTsck3BiHQb](senderAddress), đến [de:1FH1k9oXFySFtHt9YwZCNzu84zuku6Gatj](destAddress), khóa riêng tư [pk:L46ASyHfBYT6q7FB6jR975grbN4XqcmpjPERGrFKsmPNsJ9ogQsS](privateKey), khoản tiền [am:56.45345](amount) bitcoin
+- nguồn [se:19cZTDovB6wzwtGSDNbgsj78hvSLXZJvLo](senderAddress), đích [de:1ABNPDtvsazmugcTvLykzPgWTsck3BiHQb](destAddress), khóa riêng tư [pk:L5Qah782xGqZqWZmps91RaLyeYRWGssWGcMGXQUpeQhdWvWhqVj8](privateKey), khoản tiền [am:18.1818](amount) bitcoin
+- [se:3A7HNKLgZy2KtJer4Z38iRzWrsSDB9TTUz](senderAddress) [de:3Jg6a3ghWRvGMAJmTVGFvFBAeW4daKb9d3](destAddress) [pk:L2QMsA9XUb7YgYu5G6Gx6g9cuAFe5uF1pmf3rfCppMs4akMWV22D](privateKey) [am:67.1234](amount)
+
+## intent: send_transaction_with_info
+- tôi muốn chuyển tiền, địa chỉ người chuyển [se:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2](senderAddress), địa chỉ người nhận [de:3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy](destAddress), private key [pk:L4Qsz7UgetknNksuvqRvEv5fiPhTYadtPh3xjWnAE4PvDQxJgczc](privateKey), số tiền [am:12.12423456](amount) bitcoin
+- tôi muốn chuyển khoản, người chuyển [se:bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq](senderAddress), người nhận [de:1FfmbHfnpaZjKFvyi1okTjJJusN455paPH](destAddress), private key [pk:L2ZMkgoyN1TJdMcccQ41y9aRKgHvieuMVkUBmZKnzxQQp7MNY7Vf](privateKey), số lượng [am:246.001](amount) bitcoin
+- chuyển khoản, người chuyển [se:1LqiTYko7dHAPWkADNJtAx3qagktcdQFbn](senderAddress), người nhận [de:333RtP65w6pM4A5P6SQxCJxGZXquJhpkUC](destAddress), private key [pk:L1u71S31xpxrVYAE8HQEMAAvqpgtDtPYcj8GFTCpQkzbXY43n87D](privateKey), số tiền [am:1.64321](amount) bitcoin
+- chuyển khoản, nguồn [se:17qcEt7CZtmT8z9v5j2DMqizqRvwL6nVqa](senderAddress) đến [de:6b38eea05358363471198f9c8cdbdf018601f73e008b5cfecc5159cf08163f7f](destAddress) private key [pk:Kyq7oUK7kEtwuSJWbaykNWUrCACwzqpGYMG9qeAKZDtHH4D4CfQv](privateKey), số tiền [am:1234.1234](amount) bitcoin
+- chuyển khoản, từ [se:bc1q96pjthgkck6zl9wdeqa5th4rqh62xkudul3tev](senderAddress), đến [de:bc1qqcf5kt2pjx999jdgutva0yku8jf5y2c35evx6j](destAddress), khóa riêng tư [pk:KxDKJmgPrhtH8wshfzJQh5XRTPJW3o7LuBkMW1qt4EsbAM5emdBf](privateKey), số lượng tiền [am:0.0001234](amount) bitcoin
+- chuyển khoản, người chuyển [se:1DQymE1Jg4jp1QpSFJaWQKHhQHgBqWtafD](senderAddress), người nhận [de:1DQymE1Jg4jp1QpSFJaWQKHhQHgBqWtafD](destAddress), khóa riêng tư [pk:Kxs3TVg28USfT4xmjf6oyMkbepStBG4eLTrdsm2FTP1inZ6dvRSJ](privateKey), một khoản [am:99.123499](amount) bitcoin
+- giúp tôi chuyển tiền, người chuyển [se:3BowAHwEGuRC357woTHEGWXt87UFsrrhGB](senderAddress), người nhận [de:16pj1Xq5QUpRX9pjm2BNZkJ4skyXRFtY5r](destAddress), khóa riêng tư [pk:L1M7MFGsPYdt2Z2MgbGYN3n4REphbxd7KQp7xFxAPpSTLk2QDRPd](privateKey), một khoản [am:45.1234](amount) bitcoin
+- chuyển khoản [se:31qJLCjLGyjpoCiC4JoQBuDt5QwhwgxzK7](senderAddress) [de:32e8zPveAZkdAnrDhUZqJKbhXdngMWR4yp](destAddress)  [pk:KwHkQdcgdWAszdGa2kVaq2UrqVPzvaazJ8t3ZGuTBgRXuE2aFcJc](privateKey) [am:55.1](amount)
+- chuyển tiền [se:32a8NMxKvLis8uEaKYzf4Uci8wj4B3ipho](senderAddress) [de:3NRAxiRPHd8bJHTLTbrderWqnzfk4RwAr1](destAddress)  [pk:L2Wn8pjGYxELq2buVybu1pN2gxQxH8Y8Mc2sKViJsMT6fbo9YHUF](privateKey) [am:12.4](amount)
+- chuyển khoản [se:32YA5RqR3uLL8pvRQNFiBdhsYBVprZWxY6](senderAddress) [de:bc1ql9kwhqg0al7p5wsnlvkm9zfnj06k6vk4s3w4ww](destAddress)  [pk:KyNXEjPkYXLaTY97rKkNR7nzXcGdJq7yVL9JWgP6kRVeDhbbhLNT](privateKey) [am:99.24532](amount)
+
+
+## regex: senderAddress
+- \bse:[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
+- \bse:(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b
+- \bse:(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25, 40}\b
+
+## regex: destAddress
+- \bde:[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
+- \bde:(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b
+- \bde:(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25,40}\b
+
+## regex: privateKey
+- \bpk:5[HJK][1-9A-HJ-NP-Za-km-z]{49}\b
+- \bpk:[KL][1-9A-HJ-NP-Za-km-z]{51}\b
+
+## regex: amount
+- \bam:[0-9]*\.?[0-9]*\b
 
 ## intent: user_confirm
 - Đúng rồi

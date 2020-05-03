@@ -3,6 +3,7 @@
 language: vi
 pipeline: supervised_embeddings
   
+  
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
@@ -14,6 +15,6 @@ policies:
     max_history: 5
   - name: MappingPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.8
-    core_threshold: 0.8
+    nlu_threshold: 0.2
+    core_threshold: 0.2
     fallback_action_name: 'utter_default'

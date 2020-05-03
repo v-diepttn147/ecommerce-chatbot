@@ -79,13 +79,47 @@ class GetTransaction(Action):
     def run(self, dispatcher, tracker, domain):
         transactionId = tracker.get_slot('transactionId')
         if transactionId:
-            transactionInfo = "<Transaction Info>" # API for getting transaction info based on transaction ID here
+            transactionInfo = "<API HERE: Transaction Info...>" # API for getting transaction info based on transaction ID here
             dispatcher.utter_message('Thông tin giao dịch với ID ' + transactionId + ' là ' + transactionInfo)
         else:
             dispatcher.utter_message('Có lỗi xảy ra, bạn vui lòng kiểm tra hoặc thực hiện lại yêu cầu nhé! :(')
         return []
 
+class GenerateAddress(Action):
+    """
+    Generate Address
+    params: None
+    """
+    def name(self):
+        return 'action_gen_address'
 
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message('<API HERE: Tài khoản của bạn đã được tạo ....>')
+        return []
+
+class SendTransaction(Action):
+    """
+    Send Transaction
+    params: senderAddress, destinationAddress, privateKey, amount
+    """
+    def name(self):
+        return 'action_send_transaction'
+    
+    def run(self, dispatcher, tracker, domain):
+        senderAddressRaw = tracker.get_slot('senderAddress')
+        destAddressRaw = tracker.get_slot('destAddress')
+        privateKeyRaw = tracker.get_slot('privateKey')
+        amountRaw = tracker.get_slot('amount')
+        if senderAddressRaw and destAddressRaw and privateKeyRaw and amountRaw:
+            senderAddress = senderAddressRaw[3:]
+            destAddress = destAddressRaw[3:]
+            privateKey = privateKeyRaw[3:]
+            amount = amountRaw[3:]
+            # Call API here
+            dispatcher.utter_message('Yêu cầu của bạn đã được thực hiện thành công')
+        else:
+            dispatcher.utter_message('Có lỗi xảy ra, bạn hãy kiểm tra lại để chắc chắn rằng đã cung cấp đủ các thông tin : địa chỉ người gửi, địa chỉ người nhận, private key và số lượng tiền muốn chuyển nhé!')
+        return []
 
 #
 #
