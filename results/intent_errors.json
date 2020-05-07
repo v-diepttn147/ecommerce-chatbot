@@ -4,7 +4,7 @@
     "intent": "thanks",
     "intent_prediction": {
       "name": "user_confirm",
-      "confidence": 0.5271109342575073
+      "confidence": 0.5507333278656006
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "user_confirm",
     "intent_prediction": {
       "name": "thanks",
-      "confidence": 0.7102113962173462
+      "confidence": 0.4893222749233246
     }
   }
 ]
