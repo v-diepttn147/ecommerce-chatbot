@@ -38,10 +38,66 @@
 - Okie
 
 ## intent: book_search_name
-- Tôi cần tìm quyển [Harry Potter](book_name)
+- Tôi cần tìm quyển [Harry Potter Và Hòn Đá Phù Thủy](book_name)
+- Tôi cần tìm quyển [Phía Sau Nghi Can X](book_name)
+- tôi cần tìm cuốn [Rừng Na Uy](book_name)
+- cần tìm cuốn [Người Về Từ Sao Hỏa](book_name)
+- tìm cuốn [Giết Con Chim Nhại](book_name)
+- tìm quyển [To Kill A Mocking Bird](book_name)
+- tìm quyển [Steve Jobs](book_name)
+- tìm quyển [Lâu Đài Bay Của Pháp Sư Howl](book_name)
+- tôi tìm cuốn [Introduction to Python](book_name)
+- tôi tìm cuốn [Yêu Những Điều Không Hoàn Hảo](book_name)
+- mình muốn tìm cuốn [Sapiens: Lược Sử Loài Người](book_name)
+- muốn tìm cuốn này: [21 Bài Học Cho Thế Kỷ 21](book_name)
+- cần tìm quyển này ạ: [Ông Trăm Tuổi Trèo Qua Cửa Sổ Và Biến Mất](book_name)
+- tớ muốn tìm sách tên là [5099 Từ Vựng HSK1 – HSK6](book_name)
+- cần tìm sách tên là [Khi Hơi Thở Hóa Thinh Không](book_name)
+- bên mình có quyển [Không Gia Đình](book_name) không ạ
+- bạn có quyển [The God Farther](book_name) không
+- tôi cần tìm cuốn [Siddhartha](book_name)
+- tìm cuốn sách [Hệ Miễn Dịch - Kiệt Tác Của Sự Sống](book_name)
+- có quyển [Chiến Binh Cầu Vồng](book_name) không ạ
+- bên mình có cuốn [Hai số phận](book_name) không
+- tôi cần tìm cuốn [21 Bài Học Cho Thế Kỷ 21](book_name), bạn có không
+- mình cần tìm quyển [Becoming - Chất Michelle](book_name), bạn có không
 - Cần tìm quyển [Life of Pi](book_name)
 - Muốn tìm cuốn [Doraemon](book_name)
 - Có quyển [Sherlock Homles](book_name) không
+- có cuốn [Cuộc Đời Của Pi](book_name) không
+- cuốn [Homo Deus: Lược Sử Tương Lai](book_name) có không
+- quyển [Bố Già](book_name) có không
+- cho mình hỏi bạn có quyển [10 Vạn Câu Hỏi Vì Sao](book_name) không ạ
+- bạn có quyển [không gia đình](book_name) không vậy
+- bạn ơi có quyển [Emma](book_name) không
+- có quyển [Cẩm Nang Tự Học Ielts](book_name) không
+- tôi cần quyển [Kiêu hãnh và Định kiến](book_name) bạn có không
+- tôi muốn tìm quyển [Pride and Prejudices](book_name)
+- tôi muốn tìm cuốn [Doraemon Tập 1](book_name)
+- có cuốn [Gintama Tập 39](book_name) không
+- tìm cuốn [Naruto Tập 25](book_name)
+- đang tìm cuốn [Teppei Tập 16](book_name)
+- đang tìm quyển [Sự Im Lặng Của Bầy Cừu](book_name)
+- tôi đang tìm quyển [Economix - Các Nền Kinh Tế Vận Hành](book_name)
+- tôi đang tìm cuốn [The Hunger Games](book_name)
+- mình đang tìm quyển [Game of Thrones](book_name)
+- mình đang tìm cuốn [Cư Xử Như Đàn Bà Suy Nghĩ Như Đàn Ông](book_name)
+- tìm quyển [Anne Tóc Đỏ Dưới Chái Nhà Xanh](book_name)
+- có cuốn [Lâu Đài Bay Của Pháp Sư Howl](book_name) không
+- có [Ngàn Mặt Trời Rực Rỡ](book_name) không ạ
+- có [Nhật Ký Học Làm Bánh 3](book_name) không
+- [Plato Và Con Thú Mỏ Vịt Bước Vào Quán Bar](book_name) có không ạ
+- [Dưới Một Mái Nhà Ở Paris](book_name) có không
+- quyển [Hắt Xì](book_name) bạn có không
+- [Nếu Em Không Phải Một Giấc Mơ](book_name) có không vậy
+- [5 Centimet Trên Giây](book_name)
+- [Lời Của Nietzsche Cho Người Trẻ](book_name)
+- [Your Name](book_name)
+- [Nhật Ký Anne Frank](book_name)
+- [Mặc Kệ Thiên Hạ - Sống Như Người Nhật](book_name) có không bạn ơi
+
+## regex: book_name
+-/^[A-Za-z0-9\s\-_,\.;:()]+$/
 
 ## intent: book_search_genre
 - Có sách thể loại [ngôn tình](book_genre) không ạ
@@ -67,66 +123,118 @@
 - Anh cần phải xem số dư tài khoản
 
 ## intent: give_userAddress
-- Địa chỉ của tôi là [FNFNS1F452](userAddress)
-- Địa chỉ: [NDHFNG457S](userAddress)
-- Địa chỉ nè: [VFA24G5F6E](userAddress)
-- Đây bạn [CNDKF28HF7](userAddress)
-- Đây bạn: [CNDKF28HF7](userAddress)
-- [HD7DHFN292](userAddress)
-- [NL901JGNF0](userAddress)
-- [HGNROTLD91](userAddress)
-- [HG0192JFMS](userAddress)
-- [TYOSL0192J](userAddress)
-- [1JDOEIRJDK](userAddress)
-- [90JFO194RD](userAddress)
-- [HQI19I2931](userAddress)
-- [SDL10928SS](userAddress)
-- [1HD7283HD7](userAddress)
-- [DH182HD7E6](userAddress)
-- [91HF019D87](userAddress)
-- [NFHDU283HD](userAddress)
-- [JD927DHS76](userAddress)
-- [78ASDFDS10](userAddress)
-- user address là [NF938FHD76](userAddress)
-- address là [1HD7283HD7](userAddress)
-- Của tôi là [DH182HD7E6](userAddress)
-- Tài khoản [DHCNE73748](userAddress)
-- Tài khoản nè: [FBDHSYEU27](userAddress)
-- Tài khoản của tôi là [77272JFJFJ](userAddress)
-- Tài khoản của tôi [91HF019D87](userAddress)
+- Địa chỉ của tôi là [bc1qw2t9j9pja2la8d74u7rn2w7l4cdgdlncha7y3t](userAddress)
+- Địa chỉ: [1NRLywc9vHZyB9X4DrSi4wrFiDbYt2B8nR](userAddress)
+- Địa chỉ [16waCuaFJDw7ZxEkjmdjcCookvVsMw4hma](userAddress)
+- Địa chỉ là: [1BfSTsXkU3qq2iV21tnF25EgoPBHFUgXMH](userAddress)
+- Địa chỉ [1CFFsWFdxYBgZzRXD9noo9mrgsuyK2JQFY](userAddress)
+- địa chỉ [1FoypZ1GqqxFhhdh2StMMUN5ArhioXLmSp](userAddress)
+- ĐỊA CHỈ [1xyouAahaRYPYUauSvVxEomKEC1XSsLTn](userAddress)
+- Địa chỉ nè: [1AbpQAGttECBusBKFfV5hqQYSko4UZToda](userAddress)
+- Địa chỉ của tôi [1CFFsWFdxYBgZzRXD9noo9mrgsuyK2JQFY](userAddress)
+- Địa chỉ của tôi: [1BfSTsXkU3qq2iV21tnF25EgoPBHFUgXMH](userAddress)
+- Dạ địa chỉ là [1AbpQAGttECBusBKFfV5hqQYSko4UZToda](userAddress)
+- Địa chỉ đây bạn [1LVuzDHNXnUgXPtm7tFkVZC8Hbvjnmu8rH](userAddress)
+- Địa chỉ nè bạn: [12drQAs5H6Rqihmay2gLZzUQ9YW99jKCfw](userAddress)
+- Địa chỉ của tôi là: [1KoGiQVZSDWbtFAiHaVDeqADgcbr8WtGR9](userAddress)
+- Địa chỉ của mình là [1MU2BDtNgM4QS5WHsosegNPN7eSLnYoAfe](userAddress)
+- Đây bạn [1EtmMYFWQhrqrGZ1hgb7izpMZGW8Vf2NHV](userAddress)
+- Đây bạn: [1AzH3Rd9dHHTSrsdSPK2JTBfdC1Scfi7Rd](userAddress)
+- Đây ạ: [14798ARxQZsb3iBgMMqPYtZxmTkfgpXFxN](userAddress)
+- Dạ đây [19wNj6iVixB1UB8vZ6St4FQ9uvnGmScmKm](userAddress)
+- User Address của mình là [1JEutGENpqk1CLG17QdgEbj4kHdFpxDCxb](userAddress)
+- [369BjkoWdwo9QTXuqnLydCnhLj5NVhW9QA](userAddress)
+- [1PvWo7VGyr5mdvHNy6VJ2GmfujL4PBAN8E](userAddress)
+- [3jr2H2ApeFr4GzA6URtf9HrP9rwb5dSug](userAddress)
+- [1GRBLrtDGng5DvqRDuyCZbp9eaW2dXagwy](userAddress)
+- [1AnhbqXJHqktCb9NxoTbpavmxmxs29HRSw](userAddress)
+- [331GLLFpcxy3ydxCfEsL7CSM6AVEBH3xsb](userAddress)
+- [193oETuN5AMXTba6FB1Udd4CwCw13cUcrG](userAddress)
+- [148HpVjNXz6xvkJqAr9etBVeeD5uQEd3X8](userAddress)
+- [1AzH3Rd9dHHTSrsdSPK2JTBfdC1Scfi7Rd](userAddress)
+- [378s4dLvHdJXk6zxjJfRu5QwuiSFsLpnzx](userAddress)
+- [3PvWo7VGyr5mdvHNy6VJ2GmfujL4PBAN8E](userAddress)
+- [1kaJNZkAPij1uJkJFvonUe7VxoHf43Qkz](userAddress)
+- [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- [18Z3xBxKq5c4f2vNZJPj2AsjwmdaNGUsTP](userAddress)
+- [1MVs7A73Dh4znsGJrMhueMUBfyYm7stN2r](userAddress)
+- [17F6LMP6REWjkKgapouGyC6cXiEhJ1KCxb](userAddress)
+- [3NBJ3mDnF9STdvEFDVCcsScXsmyq5VRFVg](userAddress)
+- [1KfG2ucpHo1TtKcvm6SjSm6wFRU6yqUtmz](userAddress)
+- [1CFPPQHiQwAkgzqc71n733zkN7Z2rMbP25](userAddress)
+- [3CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- user address là [1JEutGENpqk1CLG17QdgEbj4kHdFpxDCxb](userAddress)
+- address là [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- Của tôi là [19oS4pP4GrgLZDFVx7ngMJuC9c8qQAaamG](userAddress)
+- Tài khoản [1JGcbX7fc6vx3inwMm1U4UExKeW1N4Hsfr](userAddress)
+- tài khoản [1xgiMh15q9LyowofDK7hdADJc11sLMYcj](userAddress)
+- Tài khoản nè: [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- Tài khoản của tôi là [1GCfBJrjK5vYiA5RgcxXcZ9TwrBDheKP7E](userAddress)
+- Tài khoản của tôi [1MNe3Ay9dKTr73uTXVac5MGyQfwtCeJb6m](userAddress)
+- Số tài khoản [1HSLV8MBzuknnmmBAm48uQjgSsGS22sbFF](userAddress)
+- số tài khoản [166fzmidxKAdnvzcyfuXNs8azP88n2KpY1](userAddress)
+- Số tài khoản là [1PpeaXmnUkNjXWYMD7UzgtWHr5uAquGLKp](userAddress)
+- Số tài khoản của tôi là [1Bry4BzvRbSBay1iXrg3ZN1xqQysLNcYWt](userAddress)
+- Tài khoản này [1NWpELXmW9VX7fLK7U5qMRU1aUjXmJMZAs](userAddress)
+- Số tài khoản: [1PvWo7VGyr5mdvHNy6VJ2GmfujL4PBAN8E](userAddress)
+- Cái này [19gRm9APF2GoARrEAcEKo8rQ6bM2KF46R4](userAddress)
+- Tài khoản [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- Số tài khoản là [1CFPPQHiQwAkgzqc71n733zkN7Z2rMbP25](userAddress)
+- số tài khoản [1MNe3Ay9dKTr73uTXVac5MGyQfwtCeJb6m](userAddress)
+- số tài khoản của tôi: [1ALzU12VEcj3AVtHhGShdTZWPqc1YDtnFQ](userAddress)
+- số tài khoản: [1CtVp1TvwtfCRkFRjEfXCmtG8PiGEBoLov](userAddress)
 
 ## intent: get_balance_with_userAddress
-- Địa chỉ của tôi là [NFHDU283HD](userAddress), tôi muốn xem số dư
-- Địa chỉ: [HD7D7D7D7D](userAddress), cần xem số dư
-- Hãy cho tôi biết số dư tài khoản [HD72HD63HD](userAddress)
-- Kiểm tra số dư tài khoản [KS8KF8GHC](userAddress) giùm mình
-- [JD927DHS76](userAddress), kiểm tra số dư giúp tôi
-- Tôi cần kiểm tra số dư với user address là [HD8282HD76](userAddress)
-- Số dư tài khoản [HDU72727H](userAddress)
-- Check balance [HDU2727DH7](userAddress)
-- Kiểm tra tài khoản [KA9A918G67](userAddress)
-- Kiểm tra số dư tài khoản [MCKALQPD00](userAddress)
-- Tôi muốn kiểm tra số dư tài khoản [HFNGU947GH](userAddress)
-- Tôi muốn kiểm tra số dư, tài khoản của tôi là [HFNRODP840](userAddress)
-- kiểm tra số dư, [9897AFDGFG](userAddress)
-- [88778ASFSA](userAddress) kiểm tra dư
-- kiểm tra giùm số dư ở tài khoản [78ASDFDS10](userAddress)
-- kiểm tra số dư tại tài khoản [124214310A](userAddress)
-- Địa chỉ user của tôi là [H18DKFO190](userAddress), vui lòng kiểm tra số dư tài khoản
-- Tôi cần kiểm tra tài khoản, tài khoản của tôi là [H3KD9FMRI8](userAddress)
-- kiểm tra dư [A787987810](userAddress)
-- hi, kiểm tra giùm mình số dư ở tài khoản [V0K0L0YOLO](userAddress) với nhé, cảm ơn
-- cho tôi hỏi số dư ở số tài khoản [G19FH18DH8](userAddress) được không
-- bạn tra giúp mình số dư ở tài khoản [12DFSAA10D](userAddress) với
-- Địa chỉ của tôi là [HF91JFNC45](userAddress), tôi muốn xem số dư
-- Tài khoản của tôi là [HFNRLA0191](userAddress), tôi cần xem số dư
-- [84HGJF90JK](userAddress), kiểm tra số dư 
-- [3H499F9F9F](userAddress) kiểm tra số dư tài khoản   
-
-
+- Địa chỉ của tôi là [197JWe8vjn2MVohGXN7QixAUfeAT4cAkJ2](userAddress), tôi muốn xem số dư
+- Địa chỉ: [1FaUd7qFxxwMFVjDvPRxvu8Zb3LnVxFjmb](userAddress), cần xem số dư
+- Hãy cho tôi biết số dư tài khoản [1AnhbqXJHqktCb9NxoTbpavmxmxs29HRSw](userAddress)
+- Kiểm tra số dư tài khoản [1MNe3Ay9dKTr73uTXVac5MGyQfwtCeJb6m](userAddress) giùm mình
+- [1G7PDzKztFD4QXY6VfiKXomgyWB7voPpqK](userAddress), kiểm tra số dư giúp tôi
+- Tôi cần kiểm tra số dư với user address là [1MDmecqrGyhWXspZYqzmFwNbMeaHwNBYQ](userAddress)
+- Số dư tài khoản [17PX2kUCEtQsVj59RiWrYqKQaUkbwvCAPC](userAddress)
+- Check balance [15W2TDH5YW7ZvHRDmGq5NAC3S6aLzVf9vh](userAddress)
+- Kiểm tra tài khoản [14rVKseZa9HSF5ub3ZG97XBdCcJhAqaJjr](userAddress)
+- Kiểm tra số dư tài khoản [1GRBLrtDGng5DvqRDuyCZbp9eaW2dXagwy](userAddress)
+- Tôi muốn kiểm tra số dư tài khoản [16rgSMYVsYz1BQjDESc3Fx45265omF1mfD](userAddress)
+- Tôi muốn kiểm tra số dư, tài khoản của tôi là [1EQjMJ7VtqYP7AxUnir1MVutoQqAwJgcp4](userAddress)
+- kiểm tra số dư, [1GJG7xF5GsCyfVmUXFLDDkNpjhFMovSdyE](userAddress)
+- [15WA7wPP4F21RoFZcN7sL9NzQv1n5S1mVq](userAddress) kiểm tra dư
+- kiểm tra giùm số dư ở tài khoản [13ePNkRRxRyZ4ovCQFUaUdYi8KEh1NJsFb](userAddress)
+- kiểm tra số dư tại tài khoản [16rgSMYVsYz1BQjDESc3Fx45265omF1mfD](userAddress)
+- Địa chỉ user của tôi là [1NHcp888ZTBJfi9BYuMT57Aw7bP9Dtp6nF](userAddress), vui lòng kiểm tra số dư tài khoản
+- Tôi cần kiểm tra tài khoản, tài khoản của tôi là [15pT7g57Gu9PQ4VaMQ6zWovvtGDSVfhy9h](userAddress)
+- kiểm tra dư [1WLedJAuFsrfS96yFhXrvTWL4KGwCxpB8](userAddress)
+- hi, kiểm tra giùm mình số dư ở tài khoản [14qtb5dHbjYw1eh8zNLAMSdQCon33q9Pg2](userAddress) với nhé, cảm ơn
+- cho tôi hỏi số dư ở số tài khoản [17XBQVF41TMnY1YvWg1fzjkHr36RLTyQgt](userAddress) được không
+- bạn tra giúp mình số dư ở tài khoản [1J6HrFZfFdauUnwgLUwK85oCvY8FjYCa7d](userAddress) với
+- Địa chỉ của tôi là [1GJG7xF5GsCyfVmUXFLDDkNpjhFMovSdyE](userAddress), tôi muốn xem số dư
+- Tài khoản của tôi là [12MHApFx3Bz2GkRd2Atrf7TT3dEtdwbqiy](userAddress), tôi cần xem số dư
+- [12Y2WegPKe45ARrVK5R8ftMwTsvy2bsCb2](userAddress), kiểm tra số dư 
+- [19LLdt813pwaga95TUbahBvNEmFnmwVbT4](userAddress) kiểm tra số dư tài khoản   
+- Bạn ơi kiểm tra tài khoản [1K7VpBNHrMKsY3wh263JBGUptuLPdkLzty](userAddress) giúp mình với
+- Kiểm tra giùm mình tài khoản [1JBdPbNYHdh3nrtyTAa3vyNx4afsN72Eq1](userAddress)
+- Kiểm tra giúp tài khoản [1PMd7ZhzRqdnW85ED1zbrGeuMwwN2PgMnL](userAddress)
+- Kiểm tra số dư tại địa chỉ [1AnhbqXJHqktCb9NxoTbpavmxmxs29HRSw](userAddress)
+- Kiểm tra số dư tại [13CmsD2zQMevSiL2gMSRiRtQydUja8yGZb](userAddress)
+- Kiểm tra số dư [1ASWEZhT8JeZ3T5HUnzA2aNZDttXQzCnar](userAddress)
+- Check số dư tại tài khoản [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- Kiểm tra tài khoản địa chỉ [1FghmLQTMhWjtRFeSmUKzjPd2J1MrRs4jY](userAddress)
+- Check số dư tại địa chỉ [1DKF7gejmrnUNvH4ETxFdNTeY6krLMgRc7](userAddress)
+- Check balance tại [1FKajNVQSRVr3QUd9ME7GShKDCzD74MzXA](userAddress)
+- Kiểm tra số dư ở tài khoản [16B6aPG4crnX1JAx7MGE1gu5FTfqt6Ptnw](userAddress)
+- Kiểm tra số dư ở địa chỉ [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- Xem số dư tại [1ASqpqhuMH3nrLNsyCFZDs6eZrYJYvsQ8F](userAddress)
+- Xem số dư ở tài khoản [1AzH3Rd9dHHTSrsdSPK2JTBfdC1Scfi7Rd](userAddress)
+- Xem số dư tại địa chỉ [178s4dLvHdJXk6zxjJfRu5QwuiSFsLpnzx](userAddress)
+- Xem số dư [1PvWo7VGyr5mdvHNy6VJ2GmfujL4PBAN8E](userAddress)
+- Mình cần kiểm tra tài khoản [1kaJNZkAPij1uJkJFvonUe7VxoHf43Qkz](userAddress)
+- Tôi cần kiểm tra tài khoản địa chỉ [1CkXVFh2FTLAC9h8ESSsDtWM7xkzckzznJ](userAddress)
+- Kiểm tra tài khoản [18Z3xBxKq5c4f2vNZJPj2AsjwmdaNGUsTP](userAddress)
 
 ## regex: userAddress
-- \b[0-9A-Z]{10}\b
+- \b[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
+- \b(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b
+- \b(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25, 40}\b
 
 ## intent: get_transaction_info
 - Tôi muốn kiểm tra thông tin giao dịch
@@ -144,6 +252,20 @@
 - Anh cần phải xem giao dịch
 - Có thể cho tôi biết thông tin về giao dịch
 - Tra cứu giao dịch
+- Thông tin giao dịch
+- Cần xem thông tin giao dịch
+- Thông tin của giao dịch
+- Lấy thông tin giao dịch
+- Thông tin của transaction
+- Transaction info
+- info của giao dịch
+- cần biết thông tin giao dịch
+- Muốn xem giao dịch có thông tin gì
+- Cần xem giao dịch có thông tin gì
+- Mình cần xem thông tin giao dịch
+- Tớ muốn xem thông tin giao dịch
+- Tôi cần xem thông tin của giao dịch
+- Tôi muốn biết thông tin của giao dịch
 
 ## intent: give_transaction_info
 - Transaction id của tôi là [f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16](transactionId)
@@ -173,7 +295,24 @@
 - id nè: [3a75fb15e928c92f0a1b7cd388a090a24fb5fa5b15a959a48637129113a44057](transactionId)
 - transaction id của tôi là [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId)
 - giao dịch của tôi [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
-- số giao dịch: [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d]
+- số giao dịch: [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- giao dịch [9961b2751ed48c6be91e9b2ffedaf05808d055194ff5e833219ba4b72f1280e8](transactionId)
+- giao dịch này [abd63eab0b2f10745b89b7150c2aeef2e94787b453a24a6088b0721e51c7e836](transactionId)
+- có giao dịch này [474b6f467a2700ee8f3bf776114aee465d2431f8d7341cb018414089a775abb3](transactionId)
+- cái này [72ae7671881ea67d19f6bcfe15de86ad1ee2ff979eb6800845ae4a1da4fc8c24](transactionId)
+- số giao dịch của tôi là [31213b7ed135ebf8d227dd73b5dd0a6105043ab6595418276922b3b5bb1758ca](transactionId)
+- số giao dịch là [8a29222dbf0079e60d2c15c21edf90c70581efcacc44ffe4872d08460c66bbdb](transactionId)
+- số transaction là [32ce741bdc39fb621088722a0b0ff0c34df7410bec2148c7c6f551924ba2e848](transactionId)
+- [d819b11ccac1db8326b1c46cd5fec2a3be3efb84b012aa0ce4860451265edbcb](transactionId), số giao dịch đây ạ
+- [76355dba03a856e65d65457c09e5e0013abd6361e88a697139464fb7e6612a00](transactionId) là số giao dịch
+- [e827e608768628c4011cae0e5eb265a1160a059823866aaa3218a2d4af2dd0f3](transactionId) là transaction id
+- [13958f9d953faa27dafe8d9dfe3f3d1307d70d3d900a6509c8fb27fb73747828](transactionId) là số transaction
+- [d34d96a210499c768c66d11ed8340518dcfdf7f9e111de1f96a845c88293acf0](transactionId) là id giao dịch
+- [4e1ddeb3412a3c4c0b7b0e817af7ce2f90efe42655dd25b8c7be7220377d9601](transactionId) là số của giao dịch
+- [051b776e9c45117b90d4e49d5c4fb8eb9d3a91bcec1fc873d7b3572140817a71](transactionId), transaction id đây ạ
+- [82c6c963f1116cab6bb1e29ffccb177c3d030241ef86002165860c7414f5722e](transactionId) đây bạn
+- [5a17603945ce6496a0407168edc057848ef48902bc740564ef291dbac30cd52c](transactionId) nè bạn
+- [3258ab81d39a5f21d72ace9610d993b07b8f18cfcfdd63282bfd3fea4385a26d](transactionId) đây
 
 ## intent: get_transaction_info_with_transactionId
 - số giao dịch là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), tôi muốn xem thông tin
@@ -188,12 +327,12 @@
 - Kiểm tra thông tin giao dịch với id [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId)
 - Tôi muốn kiểm tra thông tin giao dịch của [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
 - Tôi muốn kiểm tra thông tin giao dịch, số giao dịch là là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
-- kiểm tra số dư, [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
+- kiểm tra [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
 - [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId) kiểm tra thông tin
 - kiểm tra giùm thông tin giao dịch ở số [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
 - kiểm tra thông tin giao dịch [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
 - Địa chỉ giao dịch là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), vui lòng kiểm tra giúp thông tin
-- Tôi cần kiểm tra tài khoản, tài khoản của tôi là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- Tôi cần kiểm tra giao dịch, giao dịch của tôi là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
 - kiểm tra thông tin với giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
 - hi, kiểm tra giùm mình thông tin ở giao dịch [335005249ff3510f089ec5852c55ac22a5ceb3d3bbc342b18ea70e216e2a0a4a](transactionId) với nhé, cảm ơn
 - cho tôi hỏi thông tin giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId) được không
@@ -202,9 +341,40 @@
 - số giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), kiểm tra giùm nhé
 - [c7b123b786d961188c80861af7bdd8f36f5ac3380801494118ade26d2c938f44](transactionId), kiểm tra thông tin
 - [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId) kiểm tra thông tin giao dịch
+- kiểm tra [220e93f5a89aca3de046b3d3bf88c67a296f5dd1dda3840be951ef641a2369df](transactionId)
+- check giao dịch này giúp mình: [990c2a0d03440c18d04a3dac777f652fa694d4ad6a23edee886d2ed57754a0eb](transactionId)
+- kiểm tra giao dịch này giúp tôi: [438318fbb887055f7bbd82fef07fe823e60645197111697080b1bbbe6cca0b76](transactionId)
+- kiểm tra giao dịch [db2986a06e4cae25e72fce01dc260fb4f8ec2605eade6ef618466c1365a07fc3](transactionId) giúp tôi
+- kiểm tra thông tin của [622160261a0079a834c44078418d00ada1f2f6cc01325395936ffea4296998e3](transactionId)
+- kiểm tra giao dịch [9547bb060095ba925112271d4495f158a267d40016ae87a00e856b7482553c10](transactionId) giùm mình với ạ
+- kiểm tra thông tin giao dịch [4c373f60d2877ce37e8343e5cb4d67f8bae944fc5df18e96b304094b8813484e](transactionId) giùm tôi
+- tôi cần kiểm tra thông tin giao dịch [55f0486a9d6def4e1feffc67282b5454f9829b324572a22098dbad103e3cec08](transactionId), cảm ơn
+- kiểm tra giúp tôi thông tin giao dịch: [c571c5e7a632304cbae8f43ce439ade431947202f069af3c8e98031cdd5db8b5](transactionId)
+- thông tin của giao dịch [ab8ce41ac0843764b99e4b8db5e178b058cbb919892b92da53acf7757e01186d](transactionId)
+- thông tin giao dịch [ab8ce41ac0843764b99e4b8db5e178b058cbb919892b92da53acf7757e01186d](transactionId)
+- thông tin của [c8dab676add5883d83518dbdad963cc7ad28fd18352326a81820540021d39be8](transactionId)
+- thông tin số giao dịch [2788e77b70f47b91ccfe60c0d67600f60fd98d932de83ebd03ba5ebffb5e5080](transactionId)
+- số giao dịch [14dd4beb6d7c4f437cda7cb779bf6f530f758622b1471a20104ff40e148e9aa9](transactionId) có thông tin gì vậy
+- số giao dịch [cb11eae4bdc51fa1bdd6a02fe734931b43c8e2ceb97eade86160d58b50ec0e76](transactionId) chứa thông tin gì
+- giao dịch [94b7b09cd0362df92dcd938912e6e1d25bfbad858c9ea829989ed516f8b48679](transactionId) có thông tin gì
+- giao dịch [4bb6bdfc0b37dc5469ee5eb94833f4e78d2f5854011cb0ab9f30e9fb4056d823](transactionId), kiểm tra giúp mình
+- giao dịch [75bb2cc9fb8a38940b477be703445f675d22d081eb3670c56c3fc2a746e151d3](transactionId), check thông tin giúp mình
+- mình cần xem thông tin giao dịch [25568712de27f730b7625bfe4f985d52a8c6fddcb0b3a842827fc833fcf4392a](transactionId)
+- tôi muốn xem thông tin của giao dịch: [25568712de27f730b7625bfe4f985d52a8c6fddcb0b3a842827fc833fcf4392a](transactionId)
+- có giao dịch [aca1fd5f57efada1c46a343204b43a815acb43561d0008f6560886e2e66674cf](transactionId), kiểm tra giúp mình thông tin
+- kiểm tra giúp tôi thông tin giao dịch có số [3d661c6c0397d8b033442d8f3128dbea676ec1202907912180af104934d7d263](transactionId)
+- kiểm tra giúp mình thông tin giao dịch có số [6d86e5819c5b281138726643f9f65cfc12d6fd951dd7b2b29b9ee847640add69](transactionId)
+- kiểm tra thông tin giao dịch số [253fc82e4cfa4970fe78a9f39cdaa11c3e0ad288ce40f344b77fb0337e01ecca](transactionId)
+- thông tin của giao dịch [59981981dd10f8c7c031c28a7dfbc4e4267d1dd295639820f240d9d3afbb618a](transactionId)
+- thông tin của giao dịch có id là [a10e8389edac57ff4c1199df46aceac03c219ef626d8a65b8935036c8142ba4b](transactionId)
+- giao dịch có id là [5b0d2cc3b490cf788523ccd77da33090cf56964fff6e8d38cf1564ef8ce9f637](transactionId), kiểm tra thông tin
+- kiểm tra thông tin giao dịch có id là [1e05f2d04febb23ad40c31c81e2976514485532ede7cde3e1722c985630f0509](transactionId)
+- vui lòng kiểm tra thông tin giao dịch [f8307e8fb88e7555f2aee2b1e66cb1514f6e9b7b43d39a305fb43a26a43d4b04](transactionId)
+- bạn vui lòng kiểm tra thông tin của giao dịch [ffd0dcd5d3b01fc40d974acfa41ef2fc4947e8ba0f31c9ed608b4bdfb4f4209e](transactionId)
+- mình cần thông tin của giao dịch [39a8c930aa2e1c0015de68fcc4273167392e4717d541f8237643d0dbe0f00b45](transactionId)
 
 ## regex: transactionId
-- \b[A-Fa-f0-9]{64}\b
+- [A-Fa-f0-9]{64}
 
 ## intent: gen_address
 - tôi muốn tạo địa chỉ
@@ -229,6 +399,26 @@
 - tạo địa chỉ mới
 - cho tôi một địa chỉ giao dịch
 - đăng ký địa chỉ
+- tạo địa chỉ mới
+- tạo địa chỉ giúp tôi
+- tôi cần tạo địa chỉ
+- mình cần tạo địa chỉ
+- mình cần một địa chỉ mới
+- tôi muốn tạo địa chỉ mới
+- tôi muốn khởi tạo địa chỉ mới
+- mình cần khởi tạo địa chỉ mới
+- giúp mình tạo địa chỉ mới 
+- tạo địa chỉ mới giúp mình với
+- bạn tạo địa chỉ mới giúp mình được không ạ
+- tạo địa chỉ mới giúp mình được không ạ
+- tạo địa chỉ mới giúp mình với ạ
+- tạo địa chỉ mới giùm mình
+- mình muốn tạo địa chỉ mới
+- mình muốn khởi tạo địa chỉ mới
+- tôi cần khởi tạo một địa chỉ mới
+- hãy khởi tạo địa chỉ mới cho tôi
+- hãy khởi tạo địa chỉ mới giúp tôi
+- hãy khởi tạo địa chỉ mới
 
 ## intent: send_transaction
 - tôi muốn chuyển tiền
@@ -240,29 +430,113 @@
 - tôi cần chuyển tiền
 - chuyển tiền giúp tôi
 - chuyển khoản giúp mình
+- chuyển khoản
+- mình cần chuyển khoản
+- mình cần chuyển tiền
+- tôi cần phải chuyển tiền
+- tôi muốn chuyển một số tiền
+- tôi cần chuyển một số tiền
+- tôi có một số tiền cần chuyển
+- tôi muốn chuyển tiền đi
+- bạn ơi chuyển tiền giúp mình với
+- bạn ơi chuyển khoản giúp mình với
+- bạn ơi chuyển khoản giùm mình nhé
+- bạn có thể chuyển khoản giúp mình không
+- có thể chuyển khoản giúp tôi không
+- tôi cần thực hiện giao dịch chuyển tiền
+- tôi cần phải chuyển tiền
+- bạn có thể chuyển tiền không
+- có thể chuyển tiền giùm tôi không
+- chuyển tiền giùm
+- chuyển tiền giúp
+- chuyển tiền giùm với
+- bạn ơi chuyển tiền giùm mình
+- tôi muốn chuyển tiền, bạn có thể giúp tôi không
+- tôi cần chuyển khoản, bạn có thể giúp tôi không
+- tôi cần chuyển tiền đến tài khoản khác
+- tôi muốn chuyển tiền đến tài khoản khác
+- chuyển khoản giùm
+- mình cần chuyển tiền đến tài khoản khác
+- mình cần chuyển khoản đến tài khoản khác
+- chuyển tiền đến tài khoản khác
+- chuyển khoản đến tài khoản khác
 
-## intent: give_send_transaction_info
-- địa chỉ người chuyển [se:bc1qux353qe8xvcuhs22rjr5r55l9szgxzjfsqcedt](senderAddress), địa chỉ người nhận [de:bc1ql9kwhqg0al7p5wsnlvkm9zfnj06k6vk4s3w4ww](destAddress), private key [pk:L4Qsz7UgetknNksuvqRvEv5fiPhTYadtPh3xjWnAE4PvDQxJgczc](privateKey), số tiền [am:0.1242356](amount) bitcoin
-- tài khoản chuyển [se:14cKdtfUs3izLiqZwmPnsS3s9scB8NKEk8](senderAddress), tài khoản người nhận [de:14UXkYr5FDgBL6akHhn8oG7QK5rmjh5KYV](destAddress), private key [pk:L22ByfcLCRML6avU5aHKBmfsAgFLpVPHaHUTmPGy76BGgyG7Fp9M](privateKey), số lượng [am:1.234324](amount) bitcoin
-- người chuyển [se:bc1qmdu29dl76ps4a5eln94ld8x2mvjlu5q89mkddt](senderAddress), người nhận [de:bc1qvmknvexg42g2rgpkhx3rzl4f8ud72p6rmtfs5r](destAddress), private key [pk:L2xEuSeDNs4QiMiP5s3YuFP5AY6oxHv1kRcwcmiBqb7UgraMWyiy](privateKey), số lượng tiền [am:99.1234](amount) bitcoin
-- chuyển [se:1Gx2ZDMJHqZqApJfeDRauimNiK5aPZdSvn](senderAddress), nhận [de:14XuWjfRP5vYucFpRotaCTCfAZB6evT3gv](destAddress), private key [pk:L5hxo59m6VyX79RRgUUJ99sKGbM9QgsF4qtecNQj8vExaf8pn9XN](privateKey), số tiền [am:23.23424](amount) bitcoin
-- chuyển khoản từ [se:1Mxx3x1mfScVsP5v3aswWFfdmevq1ZcMyb](senderAddress), đến [de:1FH1k9oXFySFtHt9YwZCNzu84zuku6Gatj](destAddress), khóa riêng tư [pk:KxPUACJeUYf9t4szwHxc54SkGomtYCYg3v3VxmdRXMZ6pp2RK7pu](privateKey), khoản tiền [am:15.67544](amount) bitcoin
-- nguồn [se:1ABNPDtvsazmugcTvLykzPgWTsck3BiHQb](senderAddress), đến [de:1FH1k9oXFySFtHt9YwZCNzu84zuku6Gatj](destAddress), khóa riêng tư [pk:L46ASyHfBYT6q7FB6jR975grbN4XqcmpjPERGrFKsmPNsJ9ogQsS](privateKey), khoản tiền [am:56.45345](amount) bitcoin
-- nguồn [se:19cZTDovB6wzwtGSDNbgsj78hvSLXZJvLo](senderAddress), đích [de:1ABNPDtvsazmugcTvLykzPgWTsck3BiHQb](destAddress), khóa riêng tư [pk:L5Qah782xGqZqWZmps91RaLyeYRWGssWGcMGXQUpeQhdWvWhqVj8](privateKey), khoản tiền [am:18.1818](amount) bitcoin
-- [se:3A7HNKLgZy2KtJer4Z38iRzWrsSDB9TTUz](senderAddress) [de:3Jg6a3ghWRvGMAJmTVGFvFBAeW4daKb9d3](destAddress) [pk:L2QMsA9XUb7YgYu5G6Gx6g9cuAFe5uF1pmf3rfCppMs4akMWV22D](privateKey) [am:67.1234](amount)
-
-## intent: send_transaction_with_info
-- tôi muốn chuyển tiền, địa chỉ người chuyển [se:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2](senderAddress), địa chỉ người nhận [de:3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy](destAddress), private key [pk:L4Qsz7UgetknNksuvqRvEv5fiPhTYadtPh3xjWnAE4PvDQxJgczc](privateKey), số tiền [am:12.12423456](amount) bitcoin
-- tôi muốn chuyển khoản, người chuyển [se:bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq](senderAddress), người nhận [de:1FfmbHfnpaZjKFvyi1okTjJJusN455paPH](destAddress), private key [pk:L2ZMkgoyN1TJdMcccQ41y9aRKgHvieuMVkUBmZKnzxQQp7MNY7Vf](privateKey), số lượng [am:246.001](amount) bitcoin
-- chuyển khoản, người chuyển [se:1LqiTYko7dHAPWkADNJtAx3qagktcdQFbn](senderAddress), người nhận [de:333RtP65w6pM4A5P6SQxCJxGZXquJhpkUC](destAddress), private key [pk:L1u71S31xpxrVYAE8HQEMAAvqpgtDtPYcj8GFTCpQkzbXY43n87D](privateKey), số tiền [am:1.64321](amount) bitcoin
-- chuyển khoản, nguồn [se:17qcEt7CZtmT8z9v5j2DMqizqRvwL6nVqa](senderAddress) đến [de:6b38eea05358363471198f9c8cdbdf018601f73e008b5cfecc5159cf08163f7f](destAddress) private key [pk:Kyq7oUK7kEtwuSJWbaykNWUrCACwzqpGYMG9qeAKZDtHH4D4CfQv](privateKey), số tiền [am:1234.1234](amount) bitcoin
-- chuyển khoản, từ [se:bc1q96pjthgkck6zl9wdeqa5th4rqh62xkudul3tev](senderAddress), đến [de:bc1qqcf5kt2pjx999jdgutva0yku8jf5y2c35evx6j](destAddress), khóa riêng tư [pk:KxDKJmgPrhtH8wshfzJQh5XRTPJW3o7LuBkMW1qt4EsbAM5emdBf](privateKey), số lượng tiền [am:0.0001234](amount) bitcoin
-- chuyển khoản, người chuyển [se:1DQymE1Jg4jp1QpSFJaWQKHhQHgBqWtafD](senderAddress), người nhận [de:1DQymE1Jg4jp1QpSFJaWQKHhQHgBqWtafD](destAddress), khóa riêng tư [pk:Kxs3TVg28USfT4xmjf6oyMkbepStBG4eLTrdsm2FTP1inZ6dvRSJ](privateKey), một khoản [am:99.123499](amount) bitcoin
-- giúp tôi chuyển tiền, người chuyển [se:3BowAHwEGuRC357woTHEGWXt87UFsrrhGB](senderAddress), người nhận [de:16pj1Xq5QUpRX9pjm2BNZkJ4skyXRFtY5r](destAddress), khóa riêng tư [pk:L1M7MFGsPYdt2Z2MgbGYN3n4REphbxd7KQp7xFxAPpSTLk2QDRPd](privateKey), một khoản [am:45.1234](amount) bitcoin
-- chuyển khoản [se:31qJLCjLGyjpoCiC4JoQBuDt5QwhwgxzK7](senderAddress) [de:32e8zPveAZkdAnrDhUZqJKbhXdngMWR4yp](destAddress)  [pk:KwHkQdcgdWAszdGa2kVaq2UrqVPzvaazJ8t3ZGuTBgRXuE2aFcJc](privateKey) [am:55.1](amount)
-- chuyển tiền [se:32a8NMxKvLis8uEaKYzf4Uci8wj4B3ipho](senderAddress) [de:3NRAxiRPHd8bJHTLTbrderWqnzfk4RwAr1](destAddress)  [pk:L2Wn8pjGYxELq2buVybu1pN2gxQxH8Y8Mc2sKViJsMT6fbo9YHUF](privateKey) [am:12.4](amount)
-- chuyển khoản [se:32YA5RqR3uLL8pvRQNFiBdhsYBVprZWxY6](senderAddress) [de:bc1ql9kwhqg0al7p5wsnlvkm9zfnj06k6vk4s3w4ww](destAddress)  [pk:KyNXEjPkYXLaTY97rKkNR7nzXcGdJq7yVL9JWgP6kRVeDhbbhLNT](privateKey) [am:99.24532](amount)
-
+## intent: inform
+- người chuyển là [se:33gfksqthJfMncJzve8pLVqLX4jnwv94Mz](senderAddress)
+- địa chỉ người chuyển là [se:33QZBGf5KEJLAmVTUWPhr6qb37SzmffAGb](senderAddress)
+- địa chỉ của tôi là [se:3JyfpWJDddVSpo57YMhLMNbWRsu4nayy1D](senderAddress)
+- địa chỉ của mình là [se:3QYrcbwWtaDz6VoR9GKssSLgWWForHv7BK](senderAddress)
+- address của tôi là [se:3BEbgdP6Hv4Ld44d48nUEvF5j245iJfK9k](senderAddress)
+- address của mình là [se:3QtLjrvCPgVCDSNHqYT5eN83NbbJCCcQ4e](senderAddress)
+- address người chuyển là [se:3F7egW6U4VysFmJWv9bf4cR9gL7nLKoVzL](senderAddress)
+- người chuyển từ địa chỉ [se:3CveZt3g9VQpsL6FK7dCKoWkhR4DaLFabv](senderAddress)
+- người chuyển từ address [se:35P22gAAw5g3ctav3ueNPNsMkXTTbQiKYm](senderAddress)
+- chuyển từ [se:3KBPyQDzcFquGrmMCC3Kwzt9TdU7ofVT3C](senderAddress)
+- chuyển từ địa chỉ [se:3HGKgJ5fUdH3tYkWwmLNkTXgZzpLhvcqwQ](senderAddress)
+- người chuyển từ [se:3A6wdFvNMCy5NKKi6SEHa4tCC5JC2PwktJ](senderAddress)
+- từ [se:3Q5emrMxf8iT2fEe9nQdiEXm361F3wWKdM](senderAddress)
+- từ [se:3FvC2WBcaFELKiLUcVXAbKNRFMcPPUvzSL](senderAddress)
+- gửi từ [se:3Em26sErV4hZoLPZBbGy2rH8kfZ8marzjT](senderAddress)
+- from [se:1DToiJKb976ZxAnSyCoHP84puEDLpZw3hR](senderAddress)
+- người nhận là [de:3HHACNnpPCCucdpFVNis7qSEDwCNzH9abp](destAddress)
+- địa chỉ người nhận là [de:3Fh9tM9LNCGseHzpC2pRhJN5FtZWdcrVv6](destAddress)
+- địa chỉ của người nhận [de:37Je2Rxv8Y7zWTxefSsTiD7aPWxRQnwmc7](destAddress)
+- địa chỉ người nhận [de:1AMBL3PHQvMj66C6j46AkU98R2J1P1jX7J](destAddress)
+- address người nhận [de:3KiTMFn2Ygh4TW3KdLuR23PnpSWtiwBW87](destAddress)
+- địa chỉ nhận [de:1NfMKVWxVPUvZAJKNL44i9WhrRQtsUJ4KP](destAddress)
+- address nhận [de:34mBuBbUVRz7oX3t436hniFRqZxmgTxfCy](destAddress)
+- người nhận ở địa chỉ [de:12nUb8NAEq4EtdAdJ92BDyFp1Dy2vsTzRW](destAddress)
+- người nhận ở address [de:3M9JTW2YDmE9ocBqrnH8X1VNtgjwbocqrb](destAddress)
+- nhận ở [de:175dYs8NkEFrPG9QvAMA7m4YTqmnidPsv2](destAddress)
+- người nhận ở [de:3QQ6nyy6gS4Ap9SYRwgmLKh51az8yp769p](destAddress)
+- đến [de:3KhuuyQC4yZ5UCPYntiqYqxp2qN5zYjqq2](destAddress)
+- đến [de:38T9tS9yHmixiNPmX2Lieqabh8M6UFziF9](destAddress)
+- gửi đến [de:3E827NgXgdTDV6zsGAVQaHJhnJcZg1CRWZ](destAddress)
+- to [de:3EAbZ5GmB6C7WJvEtdPmjCTRQxn4fQ5vXa](destAddress)
+- tới [de:3ELycQAo8S6GRDm1Jxg9tiaC5KVwKGaKkB](destAddress)
+- private key [KzLefha9baPpr1j8SfHevKsWvr9naZKbvfNykreByRC4ghHEuehL](privateKey)
+- private key là [KyJgL6G1e4yy2ixMiMKcX8XFrB5sfVHtpzopwuPBMekyby1dYWwk](privateKey)
+- [L4AHzv9Jg1d16ZvrkkuLHoQCNBKrw2uuxD9fjMXBSAiPyi8TkcZ4](privateKey)
+- [L4fTkKNa43vobrMK997ncGDG8pKjkQAdY8nvrNA5rHqSJEvjFKjM](privateKey)
+- pk: [KzrBhTARia8exaaaqQxVpFD5MT9A3r2QBiHNiWbokSjYfKX9qkmH](privateKey)
+- pk [L3Bq3HeoPVcxqd4rYpAxjoCn3GzDjh6MgzHqYqpCjcwHCSocUAZx](privateKey)
+- private key: [L4iLTZS9PUcJaaowuEK7ZTokCbQAiohYCjr4N8bgtbLErycX1uDP](privateKey)
+- khóa riêng là [KwTwfjY6V8QNn8kNTpMaUeKUkTvEc8nnYdGqkLcdEUEfSBX7i7vJ](privateKey)
+- khóa riêng [L4ssi93mp9si77NYvsusfmnrWJ9DTQu1Zg61ep23LaBs97fc82yZ](privateKey)
+- khóa [L3wmHx8GvvQ3nDfBUPW4442k2BEQ6Uhvt4KwRdirXu228nrGwNaP](privateKey)
+- khóa là [KzXNKwJcPge3DV7fy4uMip87VJBbsHVk49QYWiwqAZDo7zWdkmy2](privateKey)
+- khóa: [KxmGLuiC2fE1XiofBDaFzmV4eVjBQX6qss9KchWRESRLT1K3V4qa](privateKey)
+- khóa riêng tư: [L33vf49YKjHagm99G8yzsvFgeDE9DzgGUSVpqPh1roee2f1DkNpS](privateKey)
+- khóa riêng tư là [L3B1BN9oMG5cGmYv926nBriLcKM5FpZns1VQXmnBGuDLRP7MwaTZ](privateKey)
+- khóa riêng là: [KyjG91ttiGo514TcezWh72iatQ91DtKtj6kVwr7V2w1LH69yzZkt](privateKey)
+- private key: [L2PahLvBEqc8wt2tPkXMNancztjxoioXtWSqvTq7YnwFP8QUgGsP](privateKey)
+- private key là: [KyG2ycaiMMH1YMKxBAAwSckos2mp57ZYe1fADjX13A6GS5SJLZCJ](privateKey)
+- tôi muốn gửi là [0.00480636](amount)
+- gửi [0.05990000](amount)
+- cần gửi [0.32105280](amount)
+- [0.00220688](amount)
+- [0.00198972](amount)
+- [0.00074340](amount)
+- [0.01682023](amount)
+- cần gửi đi [0.00110414](amount)
+- mình muốn gửi [0.00147911](amount)
+- tôi cần gửi [0.00310000](amount)
+- số tiền [0.03752189](amount)
+- số bitcoin [15.45021403](amount)
+- số tiền là [0.00601502](amount)
+- số bitcoin là [0.03613306](amount)
+- số tiền: [0.00313776](amount)
+- số bitcoin: [0.00480000](amount)
+- [0.002677](amount)
+- [0.07250000](amount)
+- số BTC: [0.12231459](amount)
+- [0.00351409](amount) BTC
+- gửi [0.02747709](amount) BTC
+- cần gửi [0.00978157](amount) BTC
+- muốn gửi [0.10930000](amount) BTC
+- [0.08704842](amount) BTC
+- số tiền [0.01055329](amount)
+- số tiền là [0.05990000](amount) BTC
 
 ## regex: senderAddress
 - \bse:[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
@@ -275,11 +549,11 @@
 - \bde:(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25,40}\b
 
 ## regex: privateKey
-- \bpk:5[HJK][1-9A-HJ-NP-Za-km-z]{49}\b
-- \bpk:[KL][1-9A-HJ-NP-Za-km-z]{51}\b
+- \b5[HJK][1-9A-HJ-NP-Za-km-z]{49}\b
+- \b[KL][1-9A-HJ-NP-Za-km-z]{51}\b
 
 ## regex: amount
-- \bam:[0-9]*\.?[0-9]*\b
+- \b[0-9]*\.?[0-9]*\b
 
 ## intent: user_confirm
 - Đúng rồi
@@ -329,3 +603,4 @@
 - Bai
 - pi pi
 - bibi
+- pipi bạn nha

@@ -9,6 +9,7 @@
 
 ## search_book_name
 * book_search_name
+  - utter_confirm
   - action_book_search_name
 
 ## search_book_genre
@@ -70,18 +71,6 @@
   - utter_confirm
   - action_gen_address
 
-## send transaction 1
-* send_transaction
-  - utter_get_send_transaction_info
-* give_send_transaction_info
-  - utter_confirm
-  - action_send_transaction
-
-## send transaction 2
-* send_transaction_with_info
-  - utter_confirm
-  - action_send_transaction
-
 ## say thanks
 * thanks
   - utter_thanks
@@ -89,3 +78,11 @@
 ## goodbye
 * goodbye
   - utter_goodbye
+
+
+## transaction form
+* send_transaction
+    - transaction_form 
+    - form{"name": "transaction_form"} 
+    - form{"name": null}
+

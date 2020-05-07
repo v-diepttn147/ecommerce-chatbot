@@ -1,23 +1,65 @@
 {
-  "get_transaction_info_with_transactionId": {
+  "get_transaction_info": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 26,
+    "support": 28,
     "confused_with": {}
   },
-  "get_balance": {
+  "get_balance_with_userAddress": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 13,
+    "support": 45,
+    "confused_with": {}
+  },
+  "book_search_genre": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "send_transaction": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "give_transaction_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45,
+    "confused_with": {}
+  },
+  "user_deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
     "confused_with": {}
   },
   "book_search_name": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
+    "support": 57,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 75,
     "confused_with": {}
   },
   "introduce": {
@@ -27,28 +69,16 @@
     "support": 8,
     "confused_with": {}
   },
-  "give_userAddress": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 27,
-    "confused_with": {}
+  "user_confirm": {
+    "precision": 0.9444444444444444,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9444444444444444,
+    "support": 18,
+    "confused_with": {
+      "thanks": 1
+    }
   },
-  "greet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "get_balance_with_userAddress": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 26,
-    "confused_with": {}
-  },
-  "user_deny": {
+  "get_balance": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -59,57 +89,50 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
+    "support": 11,
     "confused_with": {}
   },
-  "get_transaction_info": {
+  "get_transaction_info_with_transactionId": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 14,
+    "support": 57,
     "confused_with": {}
   },
-  "user_confirm": {
-    "precision": 0.8888888888888888,
-    "recall": 1.0,
-    "f1-score": 0.9411764705882353,
-    "support": 16,
-    "confused_with": {}
-  },
-  "give_transaction_info": {
+  "give_userAddress": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 28,
+    "support": 60,
     "confused_with": {}
   },
   "thanks": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
     "support": 10,
     "confused_with": {
-      "user_confirm": 2
+      "user_confirm": 1
     }
   },
-  "book_search_genre": {
+  "gen_address": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
+    "support": 37,
     "confused_with": {}
   },
-  "accuracy": 0.9904761904761905,
+  "accuracy": 0.996268656716418,
   "macro avg": {
-    "precision": 0.9920634920634921,
-    "recall": 0.9857142857142858,
-    "f1-score": 0.9878618113912232,
-    "support": 210
+    "precision": 0.9908496732026144,
+    "recall": 0.9908496732026144,
+    "f1-score": 0.9908496732026144,
+    "support": 536
   },
   "weighted avg": {
-    "precision": 0.9915343915343916,
-    "recall": 0.9904761904761905,
-    "f1-score": 0.9902272019919078,
-    "support": 210
+    "precision": 0.996268656716418,
+    "recall": 0.996268656716418,
+    "f1-score": 0.996268656716418,
+    "support": 536
   }
 }

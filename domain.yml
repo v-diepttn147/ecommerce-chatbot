@@ -15,8 +15,7 @@ intents:
   - user_deny
   - gen_address
   - send_transaction
-  - give_send_transaction_info
-  - send_transaction_with_info
+  - inform
 
 entities: 
   - book_name
@@ -38,57 +37,70 @@ slots:
   transactionId:
     type: text
   senderAddress:
-    type: text
+    type: "unfeaturized"
+    auto_fill: False
   destAddress:
-    type: text
+    type: "unfeaturized"
+    auto_fill: False
   privateKey:
-    type: text
+    type: "unfeaturized"
+    auto_fill: False
   amount:
-    type: text
+    type: "unfeaturized"
+    auto_fill: False
 
 responses:
   utter_greet:
-  - text: "Xin chào"
-  - text: "Chào bạn"
+    - text: "Xin chào"
+    - text: "Chào bạn"
 
   utter_bot:
-  - text: "Mình là nhân viên bán hàng của shop!"
-  - text: "Mình là bot bán hàng!"
+    - text: "Mình là nhân viên bán hàng của shop!"
+    - text: "Mình là bot bán hàng!"
 
   utter_can_do:
-  - text: "Mình có thể tìm kiếm cuốn sách tốt nhất cho bạn, chỉ cần bạn nhập câu hỏi!"
+    - text: "Mình có thể tìm kiếm cuốn sách tốt nhất cho bạn, chỉ cần bạn nhập câu hỏi!"
 
   utter_get_balance:
-  - text: "Địa chỉ của bạn là gì?"  
+    - text: "Địa chỉ của bạn là gì?"  
 
   utter_is_get_balance:
-  - text: "Bạn muốn kiểm tra số dư phải không?"
+    - text: "Bạn muốn kiểm tra số dư phải không?"
 
   utter_get_transaction_info:
-  - text: "Xin vui lòng cung cấp số giao dịch?"  
+    - text: "Xin vui lòng cung cấp số giao dịch?"  
 
   utter_is_get_transaction_info:
-  - text: "Bạn muốn kiểm tra thông tin giao dịch phải không?"
-
-  utter_get_send_transaction_info:
-    - text: "Xin vui lòng cung cấp tài khoản nguồn, tài khoản đích, Private Key và số lượng tiền muốn chuyển lần lượt ở các định dạng như sau\n - se:<sender-address>\n - de:<destination-address>\n - pk:<private-key>\n - am:<amount>\n Ví dụ: \n - se:bc1qux353qe8xvcuhs22rjr5r55l9szgxzjfsqcedt\n - de:bc1ql9kwhqg0al7p5wsnlvkm9zfnj06k6vk4s3w4ww\n - pk:L4Qsz7UgetknNksuvqRvEv5fiPhTYadtPh3xjWnAE4PvDQxJgczc\n - am:0.1242356"
+    - text: "Bạn muốn kiểm tra thông tin giao dịch phải không?"
 
   utter_confirm:
-  - text: "Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ..."
+    - text: "Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ..."
 
   utter_fine:
-  - text: "Xin lỗi bạn, vậy mình có thể giúp gì cho bạn? :)"
+    - text: "Xin lỗi bạn, vậy mình có thể giúp gì cho bạn? :)"
 
   utter_thanks:
-    - text: "Cảm ơn bạn!"
-    - text: "Cảm ơn bạn nhìu!"
+    - text: "Rất vui được giúp bạn!"
+    - text: "Cảm ơn bạn đã sử dụng dịch vụ của chúng mình!"
     - text: "Cảm ơn bạn nhìu lắm nè!"
 
   utter_goodbye:
-  - text: "Tạm biệt và hẹn gặp lại bạn!"
+    - text: "Tạm biệt và hẹn gặp lại bạn!"
 
   utter_default:
-  - text: "Hmm.. Mình không hiểu lắm, bạn có thể nói lại theo một cách khác được không :D"
+    - text: "Hmm.. Mình không hiểu lắm, bạn có thể nói lại theo một cách khác được không :D"
+
+  utter_ask_senderAddress:
+    - text: "Địa chỉ của người gửi là gì? (Bạn vui lòng ghi 'se:<địa chỉ người gửi>' nhé!)"
+
+  utter_ask_destAddress:
+    - text: "Địa chỉ của người nhận là gì? (Bạn vui lòng ghi 'de:<địa chỉ người gửi>' nhé!)"
+  
+  utter_ask_privateKey:
+    - text: "Private key của bạn là gì?"
+  
+  utter_ask_amount:
+    - text: "Bạn muốn gửi bao nhiêu?"
 
 actions:
   - utter_greet
@@ -101,9 +113,17 @@ actions:
   - utter_thanks
   - utter_goodbye
   - utter_default
+  - utter_ask_senderAddress
+  - utter_ask_destAddress
+  - utter_ask_privateKey
+  - utter_ask_amount
   - action_book_search_name
   - action_book_search_genre
   - action_get_balance
   - action_get_transaction_info
   - action_gen_address
   - action_send_transaction
+
+
+forms:
+  - transaction_form
