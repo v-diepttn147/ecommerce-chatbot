@@ -1,0 +1,6 @@
+{
+  "privateKey" : "L1CsN4QdohU5HrXQJqjFdDpp1XLAod1JDxnbr3ec3csK4ANmPori",
+  "senderAddress" : "mg5cJQRn6szaRaabykUbxsbNE8TjHKquRd",
+  "destinationAddress" : "mgEHg98FGNmLUTrnjsGaXhQAW2Mv5vtBhc",
+  "amount" : 0.0001
+}

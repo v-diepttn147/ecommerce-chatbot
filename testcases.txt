@@ -1,0 +1,189 @@
+1. Đối thoại cơ bản
+- Chào
+- Cảm ơn
+- Hỏi bot giới thiệu
+- Tạm biệt
+
+2. Tạo địa chỉ mới
+
+User:   Tôi muốn tạo địa chỉ mới
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Tài khoản của bạn đã được tạo trên mạng ETH
+        Địa chỉ mới của bạn là 0x8467aabC4f739C63E9F5bbEaEC45bE319132215B 
+        Khóa riêng của bạn là 5b1694fb591b8223b88080f3e634c1b1275d86aa227aba0de6c5372101a33b8d vui lòng giữ khóa riêng bí mật
+        Mình có thể giúp gì nữa không?
+
+3. Kiểm tra tài khoản
+3.1. 
+
+User:   Tôi muốn kiểm tra tài khoản 
+
+Bot:    Địa chỉ của bạn là gì?
+
+User:   0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Tài khoản có địa chỉ 0x097fa3d6301dF93f2088300490e29F8Bc22aec91 có số dư là:1.334158 ETH.
+        Mình có thể giúp gì nữa không?
+
+3.2. 
+
+User:   Tôi muốn kiểm tra tài khoản 0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Tài khoản có địa chỉ 0x097fa3d6301dF93f2088300490e29F8Bc22aec91 có số dư là:1.334158 ETH.
+        Mình có thể giúp gì nữa không?
+
+3.3. 
+
+User:   0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+
+Bot:    Bạn muốn kiểm tra số dư phải không?
+
+User:   Uh
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Tài khoản có địa chỉ 0x097fa3d6301dF93f2088300490e29F8Bc22aec91 có số dư là:1.334158 ETH.
+        Mình có thể giúp gì nữa không?
+
+4. Kiểm tra thông tin giao dịch
+4.1.
+
+User:   Tôi muốn kiểm tra thông tin giao dịch 0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Thông tin giao dịch với ID 0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c là:
+        Địa chỉ của người gửi là 0x81b7e08f65bdf5648606c89998a9cc8164397647
+        Địa chỉ của người nhận là 0xb2faf2c2089f512027f4a88ad683f0290da32a06
+        Số tiền giao dịch là 1ETH
+
+4.2. 
+
+User:   Kiểm tra thông tin giao dịch giúp tôi
+
+Bot:    Xin vui lòng cung cấp số giao dịch?
+
+User:   Đây bạn: 0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Thông tin giao dịch với ID 0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c là:
+        Địa chỉ của người gửi là 0x81b7e08f65bdf5648606c89998a9cc8164397647
+        Địa chỉ của người nhận là 0xb2faf2c2089f512027f4a88ad683f0290da32a06
+        Số tiền giao dịch là 1ETH
+
+4.3. 
+
+User:   0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c
+
+Bot:    Bạn muốn kiểm tra thông tin giao dịch phải không?
+
+User:   Đúng rồi
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Thông tin giao dịch với ID 0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c là:
+        Địa chỉ của người gửi là 0x81b7e08f65bdf5648606c89998a9cc8164397647
+        Địa chỉ của người nhận là 0xb2faf2c2089f512027f4a88ad683f0290da32a06
+        Số tiền giao dịch là 1ETH
+
+5. Chuyển khoản
+
+User:   Tôi muốn chuyển khoản
+
+Bot:    Địa chỉ của người gửi là gì? (Bạn vui lòng ghi theo cú pháp 'se:<địa chỉ người gửi>' nhé!)
+
+User:   se:0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+
+Bot:    Địa chỉ của người nhận là gì? (Bạn vui lòng ghi theo cú pháp 'de:<địa chỉ người nhận>' nhé!)
+
+User:   de:0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F
+
+Bot:    Private key của bạn là gì?
+
+User:   aa96f903e71f0204cd45b4298428760a1a0d70165059aab0abcbc7ee003cc3f0
+
+Bot:    Bạn muốn gửi bao nhiêu? (Bạn vui lòng ghi theo cú pháp 'am:<amount>' nhé!)
+
+User:   am:0.01
+
+Bot:    Mình đã nhận được thông tin của bạn, giao dịch sẽ được hoàn tất trong chốc lát :)
+        Giao dịch với thông tin: 
+        Địa chỉ của người gửi là 0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+        Địa chỉ của người nhận là 0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F
+        Số tiền giao dịch là 0.01ETH
+        Giao dịch thành công. Mã giao dịch là 0x4deef4179324d9fe47fab4fda4d8333706d830eb4c8175f8e2269f17e931014b
+
+6. Tìm sách theo tên
+
+User:   Tìm quyển Artificial Intelligence
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Tìm thấy 2 cuốn sách: 
+        -------------------------------
+        Title          : Artificial Intelligence
+        Language       : English
+        Publisher name : Prentice Hall
+        Published year : 2009
+        ISBN           : 9780714874746
+        Price          : 8.0
+        Rating point   : 4.0
+        Num of rates   : 1
+        In stocks      : 5
+        Sales volume   : 4
+        Author         : Stuart Russell
+                    : Peter Norvig
+        Category       : AI
+                    : ML
+        -------------------------------
+        Title          : Artificial Intelligence
+        Language       : English
+        Publisher name : Prentice Hall
+        Published year : 2020
+        ISBN           : 9781541768130
+        Price          : 6.0
+        Rating point   : 0.0
+        Num of rates   : 0
+        In stocks      : 2
+        Sales volume   : 4
+        Author         : Stuart Russell
+        Category       : AI
+        -------------------------------
+        Bạn hãy cho mình biết số ISBN của quyển sách bạn muốn mua nhé!
+
+2. Mua sách theo ISBN
+
+User:   Tôi muốn mua quyển sách có ISBN 9781541768130
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Thông tin về quyển sách Artificial Intelligence:
+        ISBN: 9781541768130
+        Author: Stuart Russell
+        Price: 0.06 BTC
+        Admin Address ID: 0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F      
+        Vui lòng thực hiện chuyển khoản cho Admin để mua sách bạn nhé!  
+
+User:   Chuyển khoản nha
+
+Bot:    Địa chỉ của người gửi là gì? (Bạn vui lòng ghi theo cú pháp 'se:<địa chỉ người gửi>' nhé!)
+
+User:   se:0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+
+Bot:    Địa chỉ của người nhận là gì? (Bạn vui lòng ghi theo cú pháp 'de:<địa chỉ người nhận>' nhé!)
+
+User:   de:0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F
+
+Bot:    Private key của bạn là gì?
+
+User:   aa96f903e71f0204cd45b4298428760a1a0d70165059aab0abcbc7ee003cc3f0
+
+Bot:    Bạn muốn gửi bao nhiêu? (Bạn vui lòng ghi theo cú pháp 'am:<amount>' nhé!)
+
+User:   am:0.06
+
+Bot:    Mình đã nhận được thông tin của bạn, giao dịch sẽ được hoàn tất trong chốc lát :)
+        Giao dịch với thông tin: 
+        Địa chỉ của người gửi là 0x097fa3d6301dF93f2088300490e29F8Bc22aec91
+        Địa chỉ của người nhận là 0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F
+        Số tiền giao dịch là 0.06ETH
+        Giao dịch thành công. Mã giao dịch là 0x77fdac24a6f8da8182dfcc8f8522cb2cb661866c6de0f3577e054ac40e541fea
+        Key book bạn đã mua: cdc6d5b6-a5ae-11ea-a6f2-9840bb425430
