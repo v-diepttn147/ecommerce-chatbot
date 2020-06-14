@@ -1,18 +1,18 @@
 [
   {
+    "text": "Ok",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "user_confirm",
+      "confidence": 0.4908372163772583
+    }
+  },
+  {
     "text": "Okie",
     "intent": "thanks",
     "intent_prediction": {
       "name": "user_confirm",
-      "confidence": 0.5507333278656006
-    }
-  },
-  {
-    "text": "Ok",
-    "intent": "user_confirm",
-    "intent_prediction": {
-      "name": "thanks",
-      "confidence": 0.4893222749233246
+      "confidence": 0.50272136926651
     }
   }
 ]

@@ -7,10 +7,64 @@
   - utter_bot
   - utter_can_do
 
+<!-- ## search_book_name 1	
+* book_search_name	
+  - utter_confirm	
+  - action_book_search_name	
+  - utter_is_buy_book	
+* user_confirm	
+  - utter_give_balance_need_and_admin_address	
+  - utter_ready_send_transaction	
+* send_transaction	
+  - transaction_form 	
+  - form{"name": "transaction_form"} 	
+  - form{"name": null}	
+  - utter_confirm_transaction	
+* give_transaction_info	
+  - action_check_adbalance_and_return_key	
+
+## search_book_name 2	
+* book_search_name	
+  - utter_confirm	
+  - action_book_search_name	
+  - utter_is_buy_book	
+* user_deny	
+  - utter_fine -->
+
 ## search_book_name
-* book_search_name
+* book_search_name	
+  - utter_confirm	
+  - action_book_search_name	
+
+## buy_book 1
+* buy_book
+  - utter_ask_isbn
+* give_isbn
   - utter_confirm
-  - action_book_search_name
+  - action_buy_book_with_isbn
+* send_transaction
+  - transaction_form 
+  - form{"name": "transaction_form"} 
+  - form{"name": null}
+
+
+## buy_book 2
+* buy_book_with_isbn
+  - utter_confirm
+  - action_buy_book_with_isbn
+
+## buy_book 3
+* give_isbn
+  - utter_is_buy_book
+* user_confirm
+  - utter_confirm
+  - action_buy_book_with_isbn
+
+## buy_book 4
+* give_isbn
+  - utter_is_buy_book
+* user_deny
+  - utter_fine
 
 ## search_book_genre
 * book_search_genre

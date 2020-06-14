@@ -123,6 +123,66 @@
 - Anh cần phải xem số dư tài khoản
 
 ## intent: give_userAddress
+- Địa chỉ của tôi là [0x81b7E08F65Bdf5648606c89998A9CC8164397647](userAddress)	
+- Địa chỉ: [0xE1165CEF25BFBeBE98B534eF6224223CF4580570](userAddress)	
+- Địa chỉ [0x82a72315e16ce224f28e1f1fb97856d3bf83f010](userAddress)	
+- Địa chỉ là: [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- Địa chỉ [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- địa chỉ [0xb2faf2c2089f512027f4a88ad683f0290da32a06](userAddress)	
+- ĐỊA CHỈ [0xe057277d76f698e863057dab8f0469c99a9ef676](userAddress)	
+- Địa chỉ nè: [0x92072a2d46363d8c0301c5a0b94c465d9a24be63](userAddress)	
+- Địa chỉ của tôi [0x93f6da84d1208fb5103fd747ec8d15c62efff889](userAddress)	
+- Địa chỉ của tôi: [0x47fa5d93238b594902ba6163f443a673489e9669](userAddress)	
+- Dạ địa chỉ là [0x33314281b2a6b45fee1abe901674ef79c56a72db](userAddress)	
+- Địa chỉ đây bạn [0x7c534dc6ab39b9d41ef6832843c96ca36630b04b](userAddress)	
+- Địa chỉ nè bạn: [0xe1165cef25bfbebe98b534ef6224223cf4580570](userAddress)	
+- Địa chỉ của tôi là: [0xfb8476462bff9b4455cdb382db0187c77d89618e](userAddress)	
+- Địa chỉ của mình là [0x7c534dc6ab39b9d41ef6832843c96ca36630b04b](userAddress)	
+- Đây bạn [0x23464ac656b869725cff279cdab0a51be648591e](userAddress)	
+- Đây bạn: [0xc46315d82ffe8bf93311dfd43c2b8ecbf5fadfb9](userAddress)	
+- Đây ạ: [0x43f14dff256e8e44b839ae00be8e0e02fa7d18db](userAddress)	
+- Dạ đây [0x467d456bd81b34109aefd5a5eccc145e1688732d](userAddress)	
+- User Address của mình là [0x5bf282868329ff924d77aa5d79aa5851291a7922](userAddress)	
+- [0xcebc0d1a672d5a536207245627f55621030d3623](userAddress)	
+- [0x7f42d55822c420bb4067d26431e0881d882875ae](userAddress)	
+- [0xc46315d82ffe8bf93311dfd43c2b8ecbf5fadfb9](userAddress)	
+- [0x92396fbb71d9c7f9c09ce7843839e2c49acdbd56](userAddress)	
+- [0x1ec2a77ec126369ad7c7e6fdb03e3d52b79b013d](userAddress)	
+- [0xfeb32a41679355c6acc479742aa43ce70901b7a4](userAddress)	
+- [0x47fa5d93238b594902ba6163f443a673489e9669](userAddress)	
+- [0x93f6da84d1208fb5103fd747ec8d15c62efff889](userAddress)	
+- [0x6f373d925869ca75ff09b0acd030a82a86020b49](userAddress)	
+- [0x47fa5d93238b594902ba6163f443a673489e9669](userAddress)	
+- [0xd0159b4953563ad23e7831811997df4a6154f8f2](userAddress)	
+- [0x3ddffc40ed2cf568ba60285ad2d792544bdf4b3a](userAddress)	
+- [0xb2faf2c2089f512027f4a88ad683f0290da32a06](userAddress)	
+- [0x3d0be6756b7c4a50db9f12f6c71a2f80880c8735](userAddress)	
+- [0x6b61691ef85001a963f2c654c7004b64f0c59677](userAddress)	
+- [0x71abb056221858dc1a49cb144c580d60bf7ea69d](userAddress)	
+- [0x10f5f62312abdff2c8413add27f113e556b79426](userAddress)	
+- [0x7ac0d06c23c5f8f441fd42d236de9cb869bd52b4](userAddress)	
+- [0x528018c88448f67d2b618a43546cf7e0b026857e](userAddress)	
+- [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- user address là [0x26697c86b3bafee8a348f0fb896e9a384a5dcebb](userAddress)	
+- address là [0x5a791b8f9f2ab4fb7d907c15b816f64a04fae552](userAddress)	
+- Của tôi là [0xfcf86891785630cded973f04ced47a3e848c5cf4](userAddress)	
+- Tài khoản [0x3a168c9baeaffe3b59e86ccf56877dd832477a5e](userAddress)	
+- tài khoản [0x1e97e0efa8977564c504df4bffd3bcb5ec9156fc](userAddress)	
+- Tài khoản nè: [0x005b68a967d39c497074127871297b6728a1cfed](userAddress)	
+- Tài khoản của tôi là [0x88311c657c9b1a3c48399cb777f3262f1ad1e613](userAddress)	
+- Tài khoản của tôi [0xe1165cef25bfbebe98b534ef6224223cf4580570](userAddress)	
+- Số tài khoản [0xfb8476462bff9b4455cdb382db0187c77d89618e](userAddress)	
+- số tài khoản [0x93f6da84d1208fb5103fd747ec8d15c62efff889](userAddress)	
+- Số tài khoản là [0x33314281b2a6b45fee1abe901674ef79c56a72db](userAddress)	
+- Số tài khoản của tôi là [0x467d456bd81b34109aefd5a5eccc145e1688732d](userAddress)	
+- Tài khoản này [0x6b61691ef85001a963f2c654c7004b64f0c59677](userAddress)	
+- Số tài khoản: [0x3d0be6756b7c4a50db9f12f6c71a2f80880c8735](userAddress)	
+- Cái này [0x7c534dc6ab39b9d41ef6832843c96ca36630b04b](userAddress)	
+- Tài khoản [0xe1165cef25bfbebe98b534ef6224223cf4580570](userAddress)	
+- Số tài khoản là [0x6f373d925869ca75ff09b0acd030a82a86020b49](userAddress)	
+- số tài khoản [0x71abb056221858dc1a49cb144c580d60bf7ea69d](userAddress)	
+- số tài khoản của tôi: [0x93f6da84d1208fb5103fd747ec8d15c62efff889](userAddress)	
+- số tài khoản: [0x3a168c9baeaffe3b59e86ccf56877dd832477a5e](userAddress)
 - Địa chỉ của tôi là [bc1qw2t9j9pja2la8d74u7rn2w7l4cdgdlncha7y3t](userAddress)
 - Địa chỉ: [1NRLywc9vHZyB9X4DrSi4wrFiDbYt2B8nR](userAddress)
 - Địa chỉ [16waCuaFJDw7ZxEkjmdjcCookvVsMw4hma](userAddress)
@@ -185,6 +245,51 @@
 - số tài khoản: [1CtVp1TvwtfCRkFRjEfXCmtG8PiGEBoLov](userAddress)
 
 ## intent: get_balance_with_userAddress
+- Địa chỉ của tôi là [0x467d456bd81b34109aefd5a5eccc145e1688732d](userAddress), tôi muốn xem số dư	
+- Địa chỉ: [0x5bf282868329ff924d77aa5d79aa5851291a7922](userAddress), cần xem số dư	
+- Hãy cho tôi biết số dư tài khoản [0x20ca057a99141d0274e45e09a815ae448611c9c5](userAddress)	
+- Kiểm tra số dư tài khoản [0x6b61691ef85001a963f2c654c7004b64f0c59677](userAddress) giùm mình	
+- [0xd574f239cb60de8a7e8cd47b9d174fd76aa05402](userAddress), kiểm tra số dư giúp tôi	
+- Tôi cần kiểm tra số dư với user address là [0x6b61691ef85001a963f2c654c7004b64f0c59677](userAddress)	
+- Số dư tài khoản [0x51b65513afd9bc2b6c48d071478317afebd20c08](userAddress)	
+- Check balance [0x6b61691ef85001a963f2c654c7004b64f0c59677](userAddress)	
+- Kiểm tra tài khoản [0x6d1d1c3238a2d1903703e3493adc8ec23e5f72d6](userAddress)	
+- Kiểm tra số dư tài khoản [0x6b61691ef85001a963f2c654c7004b64f0c59677](userAddress)	
+- Tôi muốn kiểm tra số dư tài khoản [0x53c5ad7262273711255468cacd8c2f64499e9aea](userAddress)	
+- Tôi muốn kiểm tra số dư, tài khoản của tôi là [0x1186aedab8f37c08cc00a887dbb119787cfe6aaf](userAddress)	
+- kiểm tra số dư, [0xe955819db00e212a4916a09b3f37173ea349b27e](userAddress)	
+- [0xcc625f5edaf28e14af8d5c01ff3d8bcd8665214e](userAddress) kiểm tra dư	
+- kiểm tra giùm số dư ở tài khoản [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- kiểm tra số dư tại tài khoản [0x26697c86b3bafee8a348f0fb896e9a384a5dcebb](userAddress)	
+- Địa chỉ user của tôi là [0xd6c18d07593b9563e2f65ed51e2c279b7380258d](userAddress), vui lòng kiểm tra số dư tài khoản	
+- Tôi cần kiểm tra tài khoản, tài khoản của tôi là [0x74ad5ad75b580c75079f224cd2ac103dece1f85a](userAddress)	
+- kiểm tra dư [0xfab46e002bbf0b4509813474841e0716e6730136](userAddress)	
+- hi, kiểm tra giùm mình số dư ở tài khoản [0x467d456bd81b34109aefd5a5eccc145e1688732d](userAddress) với nhé, cảm ơn	
+- cho tôi hỏi số dư ở số tài khoản [0x5bf282868329ff924d77aa5d79aa5851291a7922](userAddress) được không	
+- bạn tra giúp mình số dư ở tài khoản [0x467d456bd81b34109aefd5a5eccc145e1688732d](userAddress) với	
+- Địa chỉ của tôi là [0xfb8476462bff9b4455cdb382db0187c77d89618e](userAddress), tôi muốn xem số dư	
+- Tài khoản của tôi là [0x1ec2a77ec126369ad7c7e6fdb03e3d52b79b013d](userAddress), tôi cần xem số dư	
+- [0x93f6da84d1208fb5103fd747ec8d15c62efff889](userAddress), kiểm tra số dư 	
+- [0x1ec2a77ec126369ad7c7e6fdb03e3d52b79b013d](userAddress) kiểm tra số dư tài khoản   	
+- Bạn ơi kiểm tra tài khoản [0xfeb32a41679355c6acc479742aa43ce70901b7a4](userAddress) giúp mình với	
+- Kiểm tra giùm mình tài khoản [0xac1e8b385230970319906c03a1d8567e3996d1d5](userAddress)	
+- Kiểm tra giúp tài khoản [0x420a57027742e73804ecc8d2aa5315146fcdfd52](userAddress)	
+- Kiểm tra số dư tại địa chỉ [0xe1165cef25bfbebe98b534ef6224223cf4580570](userAddress)	
+- Kiểm tra số dư tại [0x88b389ae89a0cf533526b1abc6c4aa19562e04b7](userAddress)	
+- Kiểm tra số dư [0x23464ac656b869725cff279cdab0a51be648591e](userAddress)	
+- Check số dư tại tài khoản [0x467d456bd81b34109aefd5a5eccc145e1688732d](userAddress)	
+- Kiểm tra tài khoản địa chỉ [0x23464ac656b869725cff279cdab0a51be648591e](userAddress)	
+- Check số dư tại địa chỉ [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- Check balance tại [0x26697c86b3bafee8a348f0fb896e9a384a5dcebb](userAddress)	
+- Kiểm tra số dư ở tài khoản [0xdcd08899e75aeb2da872b75a4c3bac5b27c0d7ce](userAddress)	
+- Kiểm tra số dư ở địa chỉ [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- Xem số dư tại [0x26697c86b3bafee8a348f0fb896e9a384a5dcebb](userAddress)	
+- Xem số dư ở tài khoản [0xe4eb242157380386e41c4ce8b2bac448940dbd3c](userAddress)	
+- Xem số dư tại địa chỉ [0x528018c88448f67d2b618a43546cf7e0b026857e](userAddress)	
+- Xem số dư [0x81b7e08f65bdf5648606c89998a9cc8164397647](userAddress)	
+- Mình cần kiểm tra tài khoản [0xaaf571dbdef718cb398f51832f9d181e2d1607ef](userAddress)	
+- Tôi cần kiểm tra tài khoản địa chỉ [0xb2faf2c2089f512027f4a88ad683f0290da32a06](userAddress)	
+- Kiểm tra tài khoản [0xaaf571dbdef718cb398f51832f9d181e2d1607ef](userAddress)
 - Địa chỉ của tôi là [197JWe8vjn2MVohGXN7QixAUfeAT4cAkJ2](userAddress), tôi muốn xem số dư
 - Địa chỉ: [1FaUd7qFxxwMFVjDvPRxvu8Zb3LnVxFjmb](userAddress), cần xem số dư
 - Hãy cho tôi biết số dư tài khoản [1AnhbqXJHqktCb9NxoTbpavmxmxs29HRSw](userAddress)
@@ -232,6 +337,7 @@
 - Kiểm tra tài khoản [18Z3xBxKq5c4f2vNZJPj2AsjwmdaNGUsTP](userAddress)
 
 ## regex: userAddress
+- \b0x[0-9a-fA-F]{40}\b
 - \b[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
 - \b(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b
 - \b(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25, 40}\b
@@ -268,6 +374,51 @@
 - Tôi muốn biết thông tin của giao dịch
 
 ## intent: give_transaction_info
+- Transaction id của tôi là [0x259a8399a7c7f16ee7b0028f003d8547c5fd4d6fcab74d3c475b076193e24d31](transactionId)	
+- transaction id: [0xdbed83fc3d5dc6110a6bd2974256b6c0ca425d76f21ff4d0d297220a4b316a00](transactionId)	
+- here is transaction id: [0xcca7441754e2e9a1dd2f0dfc960da94ff99f07397ee917463b39b3218b688e26](transactionId)	
+- Đây bạn [0x170cd730eef3aa7b79957e73b3815490e5c1b948a4e72bf6364dc3be408ad204](transactionId)	
+- Đây bạn: [0x6ac631f17e45a8ae851a99d1dbbd41584d3c3e5447d1ab8382d21b4242cfad94](transactionId)	
+- [0x6ac631f17e45a8ae851a99d1dbbd41584d3c3e5447d1ab8382d21b4242cfad94](transactionId)	
+- [0xdeeb84c170f455ac035e10c2e18878f2d57564ddaa1aa7a40d90e731e21b1293](transactionId)	
+- [0x52d4173c2d08f1ef265ca6f8f3fb23f91e02824af684f2c3e4df8b46248449a8](transactionId)	
+- [0x79f4124491f4b4af71b3f980c5f71d1e41b355bea5c12db8f9f21f2ff37026d5](transactionId)	
+- [0xf6717ba523eeb3250578a9b73b872b897bd7e79dafbfb5191ac839f6dbaea475](transactionId)	
+- [0xd53cdaa6881ef5cf836c5f4b4de9551c3230d8b45d6cb8dbc3fc2bb57962953e](transactionId)	
+- [0x3bdc37581ffcc3e67869597b64897cc5009a0d4d560b5fe649018a90a820afe6](transactionId)	
+- [0x0d3413d731118848e38cdf8c2c0259aa3d2f63c20534eab5611ee327785ea0c4](transactionId)	
+- [0x3fdd9aed0ea0af00fd6327763c7533951707b48006c866a7e3bb2ba839331f59](transactionId)	
+- [0x5cd423d0f053983652c6b26c575caf9450e2f762274ecaadbb51c3f529fba74f](transactionId)	
+- [0x8c04c3cc78d492d0de33451779e8d404b176b36f9889a2c927002ba5084116f3](transactionId)	
+- [0xb56a250679dca19b0c4b0df9c999383a8a0f112df0ac0bf7546e5cef5d43b061](transactionId)	
+- [0xe6a660cf514c45214a9113fce47cb0f5094c17464afb9bb569a6cbc95dfa2422](transactionId)	
+- [0x88e84c9282a09119260fd66fc1d930914dd87cdd20a4dfe4fcc5f9d0d82251ed](transactionId)	
+- [0x80a022dd8bf9fee6c2d1d64c8d08211d1115183dde7ee166b015d1c689bd3ca9](transactionId)	
+- transaction id là [0xd3cf3555e7a4fc708389f48d302969f4631a0edc1a86dcd5b2ad463ea852b53a](transactionId)	
+- id là [0x3e2a48ead2689e25698d465f52d4d114ac8088ac304996c0b3cede89597a0477](transactionId)	
+- Của tôi là [0x106e90cccae5dc9abb8ddf592b0da379e573f84b3e374c0597ef8643854c956b](transactionId)	
+- id transaction [0xe6aaa0501cbf798684c62abe43f529595a5f36426d18a1587d13e686d6bdff7a](transactionId)	
+- id nè: [0xabe4e68a111046b12ebf8256c3a4e89a29a3b0493d65444b8b2d88a1acfc6a73](transactionId)	
+- transaction id của tôi là [0xad3e5c464af54b504ec30168a845ec12dd4eab89186133c1d31654dfca43e3f2](transactionId)	
+- giao dịch của tôi [0x7ba1728343a82b9b41985bfcbf918c47d54795960bb71d9b77596054f17122da](transactionId)	
+- số giao dịch: [0xdf42538a9b7481e1983e5c0f49781bc179aa54dc3ba7e6fcb1cfd353fe3171b2](transactionId)	
+- giao dịch [0x32165ddc2deb0a8dce4e74dffb23028615390186584c2503b4b613cf2d4b735e](transactionId)	
+- giao dịch này [0x5c31f4e2e619c347168552049ad2a3a40a2304a3e24e901ee9deebe0e38ab236](transactionId)	
+- có giao dịch này [0x3d79ba4ca90d9cbc8a2faf90a0986d6ee6c8c60cf2766b692da052ce4eae3fd7](transactionId)	
+- cái này [0x3fe6f6eb36dda48886abc07bcce856e55cc7689acbff84b8636c435cd1c84ce8](transactionId)	
+- số giao dịch của tôi là [0x99e4caf92db32ec25c047c34f329850ca4040e715203e05662334ef92f04be49](transactionId)	
+- số giao dịch là [0xd2b1f008cb97c6f4a7e5b83666457109eedf2bce0faba470fcf2abc7f35c2bb6](transactionId)	
+- số transaction là [0x95c7fd120e9046cc70c9d28c4bf760103d8fc07a36ce2540df186ce24de03e72](transactionId)	
+- [0xc104439e24cd97925c6810eb1b9f60b9c8b08be1f95550731ae84ba55c070f68](transactionId), số giao dịch đây ạ	
+- [0xa6d846da29786fde845a652efb68aae103ea9fbeae7f075fb760751678aa2972](transactionId) là số giao dịch	
+- [0x45245c78d0405511f12f2839ccad6646f080fba14d0cacb5212d77b0defecb8d](transactionId) là transaction id	
+- [0xbcb1179759b17ec7c2c257159682104af6f17ebe43659a6abd6741afb83785c1](transactionId) là số transaction	
+- [0xf67d8306b604a9563e5eaeb9a5b4b6a618ae1a37b9a70de9126da06ae9feb591](transactionId) là id giao dịch	
+- [0x28d91d5963b56815cc49d840bbb2e966e1fdca329f5d34b378f2a2074c6b9be7](transactionId) là số của giao dịch	
+- [0x6cfee0384af2fd301a6769b8ba6512b4480e60129089ecf3447acef877b0f9b3](transactionId), transaction id đây ạ	
+- [0xd63f70548c919b8716b8a49668ef033c097c77c7a0b36ae8b03a9b0270d1174a](transactionId) đây bạn	
+- [0xc7b0cdcede07e1b466cf4fae74a6ad2e2372987a56363855ad2c68abb7c8d191](transactionId) nè bạn	
+- [0x542664105ce54f0436a1e94d440c20098b539b1e1a8f8d44dc45efcade84f68e](transactionId) đây
 - Transaction id của tôi là [f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16](transactionId)
 - transaction id: [a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d](transactionId)
 - here is transaction id: [4ce18f49ba153a51bcda9bb80d7f978e3de6e81b5fc326f00465464530c052f4](transactionId)
@@ -315,6 +466,95 @@
 - [3258ab81d39a5f21d72ace9610d993b07b8f18cfcfdd63282bfd3fea4385a26d](transactionId) đây
 
 ## intent: get_transaction_info_with_transactionId
+- số giao dịch là [0x03559ceea68feb19bca79c3a8f037cd84d9165d10fe4062ca87257f004e48a9c](transactionId), tôi muốn xem thông tin	
+- số giao dịch, transaction id: [0x58a461b00a4806f78016b5efec598d9b03c4d7c2e9f161e1ce364403a68061c5](transactionId), cần xem thông tin	
+- Hãy cho tôi biết thông tin giao dịch của [27642acb237d1e8824c487fab31e89a298c4889e850e58af487c9729f70b4fc0](transactionId)
+- Kiểm tra thông tin giao dịch [4f4ba05e29f92aac0eb21a7a4693b7dae7f5d930f6923c4cdedc35576dc0f0e3](transactionId) giùm mình
+- Hãy cho tôi biết thông tin giao dịch của [0x01a7959ab57e509615ecb3b917c550df6262e6b5e58c3f5abfa0d2529381b51a](transactionId)	
+- Kiểm tra thông tin giao dịch [0xb1c5a607e03e8f4cf4acd0fe8fd555e6cba4b51b55e4272a8efb94164fac2984](transactionId) giùm mình	
+- Thông tin số giao dịch [53fdd824df9f8c8d25a479f92dc34f33df44d4727b198e9dc9511100147ea2be](transactionId)
+- Check transaction info of [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- [0x6e287a34796d8430bd649bbd24e783e7aadc59affec606d78c4bce351c9a84d8](transactionId), kiểm tra giúp tôi	
+- Tôi cần kiểm tra thông tin với số giao dịch là [0xf4c677337f7121bdebae573e3e9cafd24da6930bfb63c7fbc8a359cef988f4ff](transactionId)	
+- Tôi muốn kiểm tra thông tin giao dịch của [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- Tôi muốn kiểm tra thông tin giao dịch, số giao dịch là là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- Thông tin số giao dịch [0x41f6423168640dbfc761d5ef8b7b498e613858d4065f8bf31f2760773b5a8d7e](transactionId)	
+- Check transaction info of [0xe214bebb466673f4ce567691d4fe1d1abe5ab666e3b2b25ff4770b646034c59d](transactionId)	
+- kiểm tra giùm thông tin giao dịch ở số [feb52d59b0f3a1217f545cb343679276c065c9c74e984a59f897499cd1bc1bfe](transactionId)
+- kiểm tra thông tin giao dịch [51c2b2f1fa88b3d5303ab6dbeb7d2828dff5fee315762362ec0055b1ff1d30cf](transactionId)
+- Kiểm tra thông tin giao dịch [0x904e9ed3cb0996021066489a847589ce6e147296e5ee76907e92d46e8e474e36](transactionId)	
+- Kiểm tra thông tin giao dịch với id [0x9fafe98a622136fc2104cf3817b240c235690186292dbce68627301c82f2e83f](transactionId)	
+- kiểm tra thông tin với giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId)
+- hi, kiểm tra giùm mình thông tin ở giao dịch [335005249ff3510f089ec5852c55ac22a5ceb3d3bbc342b18ea70e216e2a0a4a](transactionId) với nhé, cảm ơn
+- Tôi muốn kiểm tra thông tin giao dịch của [0x9fafe98a622136fc2104cf3817b240c235690186292dbce68627301c82f2e83f](transactionId)	
+- Tôi muốn kiểm tra thông tin giao dịch, số giao dịch là là [0xc1f551d5eec2df3de861256d0677caf6ddee217fcb9fb5ab45c46c051ac2f0d1](transactionId)	
+- kiểm tra [0x05f27eda9421c68f581209ef3fa3fa6d50362589d93cf04506f1f5beb8bccd0b](transactionId)	
+- [0x2cc2c7a7df53264f2530dc77b35636f5a653eae4ecbe1c8ff729fe038d9ae6cc](transactionId) kiểm tra thông tin	
+- kiểm tra giùm thông tin giao dịch ở số [0xc54e2449195e018fd4f0624331d73e007d4e2d75b27f2e1bf40330a41c398f9a](transactionId)	
+- kiểm tra thông tin giao dịch [0xc29bd03c427e6ad011a004306cd1db3d5c825e14b5ea291a34d51700c08dff67](transactionId)	
+- Địa chỉ giao dịch là [0x7a740ed45abe278f029424f068f49567438a8d303993a105aa57f8806de9a305](transactionId), vui lòng kiểm tra giúp thông tin	
+- Tôi cần kiểm tra giao dịch, giao dịch của tôi là [0x3cb29d80ca21fe19d5d67075b70e850c420c50624fde11c1e778e6ec84ae2e78](transactionId)	
+- kiểm tra thông tin với giao dịch [0x192e0f0772a2d75ec0494e73ccf0000540711f1a2da5b2d75035b05eefa8ce00](transactionId)	
+- hi, kiểm tra giùm mình thông tin ở giao dịch [0x72eabe17aa7a4b488f6ec2423a785176f6333a1d54576de5de369e2737ef7e38](transactionId) với nhé, cảm ơn	
+- cho tôi hỏi thông tin giao dịch [0xc8d7ae664d554ec5047cc500e99820fc47972cd64897bb42fddc2496d3795199](transactionId) được không	
+- bạn tra giúp mình thông tin giao dịch [0x8ba4ba59da655c2f98d59edd141233a64b8544f03104eb4c176e8693d5fce1d2](transactionId) với	
+- số giao dịch là [ec5edb13518a3f63529df3ae56cbe64ab3fbf4100650144ecd91a17c4ca83768](transactionId), tôi muốn xem thông tin
+- số giao dịch [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), kiểm tra giùm nhé
+- số giao dịch là [0x46e34d480ecbb4451a6339b0154ea256ee821cf0948bc9a48cd415b04d2fbf22](transactionId), tôi muốn xem thông tin	
+- số giao dịch [0x3c2373401232aba5ad1d99ab8c1842afbfff792ed24072fa07eb9e74f0cbea74](transactionId), kiểm tra giùm nhé	
+- [0x4d5dc755100b5fb5da3559a3fedc3d30bcd5c3951952a6e69452c375288d61c9](transactionId), kiểm tra thông tin	
+- kiểm tra [220e93f5a89aca3de046b3d3bf88c67a296f5dd1dda3840be951ef641a2369df](transactionId)
+- check giao dịch này giúp mình: [990c2a0d03440c18d04a3dac777f652fa694d4ad6a23edee886d2ed57754a0eb](transactionId)
+- [0xd7e31f5745ae377c7a38bbab97b29f369ffb6bd086b6235c2e46631f12d4c7a1](transactionId) kiểm tra thông tin giao dịch	
+- kiểm tra [0x280edeaac9e80200bc132dcd99999483a710097c82c9580901c65520c10ef911](transactionId)	
+- check giao dịch này giúp mình: [0x8a41347637d6bbf0d085bd0f15d5d5eab1334e6a9b9ac8f9814f38e883fecfc2](transactionId)	
+- kiểm tra giao dịch này giúp tôi: [0xb11d5611a54b886149038c89207471555387d5c043ba9a853341326f737ed505](transactionId)	
+- kiểm tra giao dịch [9547bb060095ba925112271d4495f158a267d40016ae87a00e856b7482553c10](transactionId) giùm mình với ạ
+- kiểm tra thông tin giao dịch [4c373f60d2877ce37e8343e5cb4d67f8bae944fc5df18e96b304094b8813484e](transactionId) giùm tôi
+- tôi cần kiểm tra thông tin giao dịch [55f0486a9d6def4e1feffc67282b5454f9829b324572a22098dbad103e3cec08](transactionId), cảm ơn
+- kiểm tra giao dịch [0x42a8034f678522a6b2cd57257fa13a4f6aa8e894e39a2605e850cb58f1ad7820](transactionId) giúp tôi	
+- kiểm tra thông tin của [0x9e7a074b10b737af1ad82e3d2dbf4f745a91d259948ff15ee0b0f877b19c19db](transactionId)	
+- thông tin của [c8dab676add5883d83518dbdad963cc7ad28fd18352326a81820540021d39be8](transactionId)
+- thông tin số giao dịch [2788e77b70f47b91ccfe60c0d67600f60fd98d932de83ebd03ba5ebffb5e5080](transactionId)
+- số giao dịch [14dd4beb6d7c4f437cda7cb779bf6f530f758622b1471a20104ff40e148e9aa9](transactionId) có thông tin gì vậy
+- kiểm tra giao dịch [0x02e409686633b9cf3bfb836570b92aec30a44ac12734b1c24ca224261800c4e2](transactionId) giùm mình với ạ	
+- kiểm tra thông tin giao dịch [0x3aed56c0ea4bf5b580fd463c3a8ed1abf41730e4488e4bc2561fac004da36d69](transactionId) giùm tôi	
+- giao dịch [4bb6bdfc0b37dc5469ee5eb94833f4e78d2f5854011cb0ab9f30e9fb4056d823](transactionId), kiểm tra giúp mình
+- giao dịch [75bb2cc9fb8a38940b477be703445f675d22d081eb3670c56c3fc2a746e151d3](transactionId), check thông tin giúp mình
+- mình cần xem thông tin giao dịch [25568712de27f730b7625bfe4f985d52a8c6fddcb0b3a842827fc833fcf4392a](transactionId)
+- tôi cần kiểm tra thông tin giao dịch [0x07e64ff28337f3b35673a5ed4287acff14210a0e5fa74b9f3e89c2766f8d30eb](transactionId), cảm ơn	
+- kiểm tra giúp tôi thông tin giao dịch: [0x1c2f4ea70c5823e0cc4d908fa6faa0ceed046ed2b4f8ae8194c54eb96cd9bd32](transactionId)	
+- thông tin của giao dịch [0x1906adb52ec780b251455563c87c81a4bdbf8899a97174956b135cd9b4bb5ae4](transactionId)	
+- thông tin giao dịch [0x205a177d553dc887dff2536ea4ab5becbaf50c2be1cfe2850eff69469e16299d](transactionId)	
+- thông tin của [0x4c5d161d7e100f0390a3650b2350abc1dcb7e935ef5bc00d07283c6f41be4bfd](transactionId)	
+- kiểm tra giúp mình thông tin giao dịch có số [6d86e5819c5b281138726643f9f65cfc12d6fd951dd7b2b29b9ee847640add69](transactionId)
+- kiểm tra thông tin giao dịch số [253fc82e4cfa4970fe78a9f39cdaa11c3e0ad288ce40f344b77fb0337e01ecca](transactionId)
+- thông tin của giao dịch [59981981dd10f8c7c031c28a7dfbc4e4267d1dd295639820f240d9d3afbb618a](transactionId)
+- thông tin số giao dịch [0x80cbb57570cff1f1ef59ec0f57328f998b2f09695df36c498855a1c403576084](transactionId)	
+- số giao dịch [0xf10748f21d28c77e9d06d6f6e6e99765f6569a25eca704c9d4be0a8bd8a48bf3](transactionId) có thông tin gì vậy	
+- số giao dịch [0x4d5dc755100b5fb5da3559a3fedc3d30bcd5c3951952a6e69452c375288d61c9](transactionId) chứa thông tin gì	
+- giao dịch [0x280edeaac9e80200bc132dcd99999483a710097c82c9580901c65520c10ef911](transactionId) có thông tin gì	
+- giao dịch [0x4c5d161d7e100f0390a3650b2350abc1dcb7e935ef5bc00d07283c6f41be4bfd](transactionId), kiểm tra giúp mình	
+- giao dịch [0xcbe17ca2110ad073efba03c5b29703ab49750e6c1553928ff7ad38dbb9cfda6f](transactionId), check thông tin giúp mình	
+- mình cần xem thông tin giao dịch [0xc08e65a6b912358b142b67c79799a9ca6f208bed296d62ec9a83bc0604a184b1](transactionId)	
+- tôi muốn xem thông tin của giao dịch: [0xf10748f21d28c77e9d06d6f6e6e99765f6569a25eca704c9d4be0a8bd8a48bf3](transactionId)	
+- có giao dịch [0xb29abd531ba30159727ea31a1191f2db3dc68f3c86da6156f80874792da4a93e](transactionId), kiểm tra giúp mình thông tin	
+- kiểm tra giúp tôi thông tin giao dịch có số [0x4c5d161d7e100f0390a3650b2350abc1dcb7e935ef5bc00d07283c6f41be4bfd](transactionId)	
+- thông tin của giao dịch có id là [a10e8389edac57ff4c1199df46aceac03c219ef626d8a65b8935036c8142ba4b](transactionId)
+- giao dịch có id là [5b0d2cc3b490cf788523ccd77da33090cf56964fff6e8d38cf1564ef8ce9f637](transactionId), kiểm tra thông tin
+- kiểm tra thông tin giao dịch có id là [1e05f2d04febb23ad40c31c81e2976514485532ede7cde3e1722c985630f0509](transactionId)
+- vui lòng kiểm tra thông tin giao dịch [f8307e8fb88e7555f2aee2b1e66cb1514f6e9b7b43d39a305fb43a26a43d4b04](transactionId)
+- bạn vui lòng kiểm tra thông tin của giao dịch [ffd0dcd5d3b01fc40d974acfa41ef2fc4947e8ba0f31c9ed608b4bdfb4f4209e](transactionId)
+- mình cần thông tin của giao dịch [39a8c930aa2e1c0015de68fcc4273167392e4717d541f8237643d0dbe0f00b45](transactionId)
+- kiểm tra giúp mình thông tin giao dịch có số [0xfb8ea1267ea366d22757d8a3393880588d9cafa3f05f424e14da7b86c7922a0a](transactionId)	
+- kiểm tra thông tin giao dịch số [0x7ed18a97af0f5fe6bcae1ef182072c276d0acb5ced1409640c16a2f86d79a8af](transactionId)	
+- thông tin của giao dịch [0xbed84733683ae984b744157f39f5b76a0ddef86fe8c17f6f3f75c467662b4d8d](transactionId)	
+- thông tin của giao dịch có id là [0xb29abd531ba30159727ea31a1191f2db3dc68f3c86da6156f80874792da4a93e](transactionId)	
+- giao dịch có id là [0x742d1e4b8201aa9449d26834f23ebfb6787e14a21ef7c2d69e84f020b9fbd149](transactionId), kiểm tra thông tin	
+- kiểm tra thông tin giao dịch có id là [0xcbe17ca2110ad073efba03c5b29703ab49750e6c1553928ff7ad38dbb9cfda6f](transactionId)	
+- vui lòng kiểm tra thông tin giao dịch [0xf4aa68b6fa30625dc7524ae0b167c85952377a40db9aeb4ab35c86fae4f52bd1](transactionId)	
+- bạn vui lòng kiểm tra thông tin của giao dịch [0xf10748f21d28c77e9d06d6f6e6e99765f6569a25eca704c9d4be0a8bd8a48bf3](transactionId)	
+- mình cần thông tin của giao dịch [0xd36a38d04cf4f11a4e7389446bee4f88afb38cf542924826f5ae8a53231798b9](transactionId)
 - số giao dịch là [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), tôi muốn xem thông tin
 - số giao dịch, transaction id: [6ef81dd1a0c47e55568063a56af971a37aa35a7e068b942ee8e218be58ea983d](transactionId), cần xem thông tin
 - Hãy cho tôi biết thông tin giao dịch của [27642acb237d1e8824c487fab31e89a298c4889e850e58af487c9729f70b4fc0](transactionId)
@@ -374,7 +614,7 @@
 - mình cần thông tin của giao dịch [39a8c930aa2e1c0015de68fcc4273167392e4717d541f8237643d0dbe0f00b45](transactionId)
 
 ## regex: transactionId
-- [A-Fa-f0-9]{64}
+- \b(0x)?[A-Fa-f0-9]{64}\b
 
 ## intent: gen_address
 - tôi muốn tạo địa chỉ
@@ -462,6 +702,14 @@
 - chuyển khoản đến tài khoản khác
 
 ## intent: inform
+- người chuyển là [se:0xe1165cef25bfbebe98b534ef6224223cf4580570](senderAddress)	
+- địa chỉ người chuyển là [se:0xe137363a81be8ac17b31237442aad992996c4657](senderAddress)	
+- địa chỉ của tôi là [se:0x635b4764d1939dfacd3a8014726159abc277becc](senderAddress)	
+- địa chỉ của mình là [se:0x725b9fd541460e0bb767b614233e89a967215c3a](senderAddress)
+- [se:0xe1165cef25bfbebe98b534ef6224223cf4580570](senderAddress)	
+- [se:0xe137363a81be8ac17b31237442aad992996c4657](senderAddress)	
+- [se:0x635b4764d1939dfacd3a8014726159abc277becc](senderAddress)	
+- [se:0x725b9fd541460e0bb767b614233e89a967215c3a](senderAddress)
 - người chuyển là [se:33gfksqthJfMncJzve8pLVqLX4jnwv94Mz](senderAddress)
 - địa chỉ người chuyển là [se:33QZBGf5KEJLAmVTUWPhr6qb37SzmffAGb](senderAddress)
 - địa chỉ của tôi là [se:3JyfpWJDddVSpo57YMhLMNbWRsu4nayy1D](senderAddress)
@@ -478,6 +726,10 @@
 - từ [se:3FvC2WBcaFELKiLUcVXAbKNRFMcPPUvzSL](senderAddress)
 - gửi từ [se:3Em26sErV4hZoLPZBbGy2rH8kfZ8marzjT](senderAddress)
 - from [se:1DToiJKb976ZxAnSyCoHP84puEDLpZw3hR](senderAddress)
+- người nhận ở địa chỉ [de:0x1ec2a77ec126369ad7c7e6fdb03e3d52b79b013d](destAddress)	
+- người nhận ở address [de:0x6f373d925869ca75ff09b0acd030a82a86020b49](destAddress)	
+- nhận ở [de:0xd6f2cdf2f40e5a8f3e6c8b9a5e531cd625324496](destAddress)	
+- người nhận ở [de:0xaaf571dbdef718cb398f51832f9d181e2d1607ef](destAddress)
 - người nhận là [de:3HHACNnpPCCucdpFVNis7qSEDwCNzH9abp](destAddress)
 - địa chỉ người nhận là [de:3Fh9tM9LNCGseHzpC2pRhJN5FtZWdcrVv6](destAddress)
 - địa chỉ của người nhận [de:37Je2Rxv8Y7zWTxefSsTiD7aPWxRQnwmc7](destAddress)
@@ -494,66 +746,279 @@
 - gửi đến [de:3E827NgXgdTDV6zsGAVQaHJhnJcZg1CRWZ](destAddress)
 - to [de:3EAbZ5GmB6C7WJvEtdPmjCTRQxn4fQ5vXa](destAddress)
 - tới [de:3ELycQAo8S6GRDm1Jxg9tiaC5KVwKGaKkB](destAddress)
+- private key: [97dfd42268314aeae3cc677dcfd3b59e57fd4de030a1cc26807508f8ba808a82](privateKey)
+- private key: [611c35e2023f8b186a93179f44744fefed98ef2a9e297f840fb15aa10e5b7b62](privateKey)
+- [97dfd42268314aeae3cc677dcfd3b59e57fd4de030a1cc26807508f8ba808a82](privateKey)
+- [fe0fc2f6965b944c75f00f475bb04d3501f3f116b891c57f70032bd686ecdd85](privateKey)
+- private key là: [aa96f903e71f0204cd45b4298428760a1a0d70165059aab0abcbc7ee003cc3f0](privateKey)
+- private key là: [1c3a0a70f4e7d85f96d3401faa6f39920f4ef77cc48589dfd0df8479f051e0ca](privateKey)
+- [aa96f903e71f0204cd45b4298428760a1a0d70165059aab0abcbc7ee003cc3f0](privateKey)
+- [5907aa4cd0199ef1e3f4c59b3c44c0ee8ea7eeed16d72f2cc06f012be0a5eca1](privateKey)
 - private key [KzLefha9baPpr1j8SfHevKsWvr9naZKbvfNykreByRC4ghHEuehL](privateKey)
+- private key [7c1ed743b0385c017811cb06413b81d07e24365f4b4ce1a83e232ce8b92c95b8](privateKey)
+- [KzLefha9baPpr1j8SfHevKsWvr9naZKbvfNykreByRC4ghHEuehL](privateKey)
+- [302633b43b7cdcf1d9032fd7893ddc12bdd67f1e79cd0c689c84e80b90b9069b](privateKey)
 - private key là [KyJgL6G1e4yy2ixMiMKcX8XFrB5sfVHtpzopwuPBMekyby1dYWwk](privateKey)
+- private key là [6fcbd341665388736f8ee92a93daa9ec0682fed91c670391e83862a55a6e795f](privateKey)
+- [KyJgL6G1e4yy2ixMiMKcX8XFrB5sfVHtpzopwuPBMekyby1dYWwk](privateKey)
+- [f99513f90c839d8a12cf36eb878924a60c281f60cb038bf01c6e280691b3b4b1](privateKey)
 - [L4AHzv9Jg1d16ZvrkkuLHoQCNBKrw2uuxD9fjMXBSAiPyi8TkcZ4](privateKey)
+- [02b92d585c52273d5fd98714ede17b99600a6da82078287fceb4e21ce08906c6](privateKey)
 - [L4fTkKNa43vobrMK997ncGDG8pKjkQAdY8nvrNA5rHqSJEvjFKjM](privateKey)
+- [260c4b06d2ef8a52e22a613bf6cd455b5050878a4db204b1d61a55701b0f03a6](privateKey)
 - pk: [KzrBhTARia8exaaaqQxVpFD5MT9A3r2QBiHNiWbokSjYfKX9qkmH](privateKey)
+- pk: [d28b33221904dd228d16ad03a2ac9052132fbcb92471a7c6d176f5007853979b](privateKey)
 - pk [L3Bq3HeoPVcxqd4rYpAxjoCn3GzDjh6MgzHqYqpCjcwHCSocUAZx](privateKey)
+- pk [adc1ef8563e4d0db6b9028c152827ba3254ea66ee72ffeed80da02242124da4a](privateKey)
 - private key: [L4iLTZS9PUcJaaowuEK7ZTokCbQAiohYCjr4N8bgtbLErycX1uDP](privateKey)
+- private key: [8dffff6112a71a48d6722b3904b66e16b7b40ee476ae52ed54d76011819bd06e](privateKey)
 - khóa riêng là [KwTwfjY6V8QNn8kNTpMaUeKUkTvEc8nnYdGqkLcdEUEfSBX7i7vJ](privateKey)
+- khóa riêng là [c5e547ff7903109797ad02a1c1e6ad6e55e21739346d77cce06cc1f7f1bfbb93](privateKey)
 - khóa riêng [L4ssi93mp9si77NYvsusfmnrWJ9DTQu1Zg61ep23LaBs97fc82yZ](privateKey)
+- khóa riêng [864b596cf8d325f89c9393ed77aeb3bc35b9f843ed0f0445de2d0625c5afc06c](privateKey)
 - khóa [L3wmHx8GvvQ3nDfBUPW4442k2BEQ6Uhvt4KwRdirXu228nrGwNaP](privateKey)
+- khóa [caac7fcd021b0f143cd6ae5084733897c576d125ce0e1fff16d4120d2855bd80](privateKey)
 - khóa là [KzXNKwJcPge3DV7fy4uMip87VJBbsHVk49QYWiwqAZDo7zWdkmy2](privateKey)
+- khóa là [4d8ec50c3e0e0acd88f2d8074866dc5b9527fd51e63a5bafd908c1903e7cb76b](privateKey)
 - khóa: [KxmGLuiC2fE1XiofBDaFzmV4eVjBQX6qss9KchWRESRLT1K3V4qa](privateKey)
+- khóa: [9c8668badaaef624ba395a290cb38ac0d4094380f5a9ea6e6e7623f576fd7394](privateKey)
 - khóa riêng tư: [L33vf49YKjHagm99G8yzsvFgeDE9DzgGUSVpqPh1roee2f1DkNpS](privateKey)
+- khóa riêng tư: [81a280b1436e59fdf3d1ca503f43f10a137d1ea85fd4fcffd200f66516072272](privateKey)
 - khóa riêng tư là [L3B1BN9oMG5cGmYv926nBriLcKM5FpZns1VQXmnBGuDLRP7MwaTZ](privateKey)
+- khóa riêng tư là [249db21ec03b7dd1e91e675f1d74d6da2b715da033fdeac959ba75360fb31f0d](privateKey)
 - khóa riêng là: [KyjG91ttiGo514TcezWh72iatQ91DtKtj6kVwr7V2w1LH69yzZkt](privateKey)
+- khóa riêng là: [184498b9aeac0ae04b640297f9f0e08ae9ca52cbab96fc65f88f4b43225a0bf0](privateKey)
 - private key: [L2PahLvBEqc8wt2tPkXMNancztjxoioXtWSqvTq7YnwFP8QUgGsP](privateKey)
+- private key: [0df5b6afc2411b8eaa0ebedfcc9336aa09581eba31a8ed47c3f6b9afcd3d81db](privateKey)
 - private key là: [KyG2ycaiMMH1YMKxBAAwSckos2mp57ZYe1fADjX13A6GS5SJLZCJ](privateKey)
-- tôi muốn gửi là [0.00480636](amount)
-- gửi [0.05990000](amount)
-- cần gửi [0.32105280](amount)
-- [0.00220688](amount)
-- [0.00198972](amount)
-- [0.00074340](amount)
-- [0.01682023](amount)
-- cần gửi đi [0.00110414](amount)
-- mình muốn gửi [0.00147911](amount)
-- tôi cần gửi [0.00310000](amount)
-- số tiền [0.03752189](amount)
-- số bitcoin [15.45021403](amount)
-- số tiền là [0.00601502](amount)
-- số bitcoin là [0.03613306](amount)
-- số tiền: [0.00313776](amount)
-- số bitcoin: [0.00480000](amount)
-- [0.002677](amount)
-- [0.07250000](amount)
-- số BTC: [0.12231459](amount)
-- [0.00351409](amount) BTC
-- gửi [0.02747709](amount) BTC
-- cần gửi [0.00978157](amount) BTC
-- muốn gửi [0.10930000](amount) BTC
-- [0.08704842](amount) BTC
-- số tiền [0.01055329](amount)
-- số tiền là [0.05990000](amount) BTC
+- private key là: [f288ba04219741fd4fa9c473bab9939aa6f0f757115e70e663fc815141703265](privateKey)
+- tôi muốn gửi là [am:0.00480636](amount)
+- gửi [am:0.05990000](amount)
+- cần gửi [am:0.32105280](amount)
+- [am:0.00220688](amount)
+- [am:0.00198972](amount)
+- [am:0.00074340](amount)
+- [am:0.01682023](amount)
+- [am:1.0](amount)
+- [am:3.001](amount)
+- [am:4.0](amount)
+- [am:5.3](amount)
+- [am:7.213](amount)
+- [am:8.0](amount)
+- [am:9.1](amount)
+- [am:20.11](amount)
+- [am:19.008](amount)
+- [am:2.0](amount)
+- [am:3.3](amount)
+- [am:14.5](amount)
+- [am:0.00220688](amount) BTC
+- [am:0.00198972](amount) ETH
+- [am:0.00074340](amount) BTC
+- [am:0.01682023](amount) ETH
+<!-- - [1.0](amount) BTC
+- [2.0](amount) ETH
+- [3.1](amount) BTC
+- [4.4](amount) ETH
+- [5.3](amount) BTC
+- [6.0](amount) ETH
+- [7.8](amount) BTC
+- [8.0](amount) ETH
+- [9.0](amount) BTC
+- [10.23](amount) ETH
+- [20.10](amount) BTC
+- [19.0](amount) ETH
+- [2.0](amount) BTC
+- [3.3](amount) ETH
+- [14.5](amount) BTC -->
+- cần gửi đi [am:0.00110414](amount)
+- mình muốn gửi [am:0.00147911](amount)
+- tôi cần gửi [am:0.00310000](amount)
+- số tiền [am:0.03752189](amount)
+- số bitcoin [am:15.45021403](amount)
+- số tiền là [am:0.00601502](amount)
+- số bitcoin là [am:0.03613306](amount)
+- số tiền: [am:0.00313776](amount)
+- số bitcoin: [am:0.00480000](amount)
+- [am:0.002677](amount)
+- [am:0.07250000](amount)
+- số BTC: [am:0.12231459](amount)
+- [am:0.00351409](amount) BTC
+- gửi [am:0.02747709](amount) BTC
+- cần gửi [am:0.00978157](amount) BTC
+- muốn gửi [am:0.10930000](amount) BTC
+- [am:0.08704842](amount) BTC
+- số tiền [am:0.01055329](amount)
+- số tiền là [am:0.05990000](amount) BTC
 
 ## regex: senderAddress
 - \bse:[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
 - \bse:(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b
 - \bse:(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25, 40}\b
+- \bse:0x[a-fA-F0-9]{40}\b
 
 ## regex: destAddress
 - \bde:[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b
 - \bde:(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b
 - \bde:(tb1|[2nm]|bcrt)[a-zA-HJ-NP-Z0-9]{25,40}\b
+- \bde:0x[a-fA-F0-9]{40}\b
 
 ## regex: privateKey
 - \b5[HJK][1-9A-HJ-NP-Za-km-z]{49}\b
 - \b[KL][1-9A-HJ-NP-Za-km-z]{51}\b
+- \b[0-9a-z]{64}\b
 
 ## regex: amount
-- \b[0-9]*\.?[0-9]*\b
+- \bam:[0-9]*\.?[0-9]*\b
+
+## intent: buy_book
+- Tôi muốn mua sách
+- mua sách
+- mua book
+- cần mua sách
+- Muốn mua sách
+- Mình muốn mua sách
+- Tớ muốn mua sách
+- Chị muốn mua sách
+- Anh cần phải mua sách
+- Có thể cho tôi mua sách không
+- Cần mua sách
+- Mình cần mua sách
+- Tôi cần mua sách
+- Mình có bán sách phải không bạn
+- Có bán sách không ạ
+- Tôi mua sách ở đây phải không ạ
+- Mua sách ở đây phải không ạ
+- Tôi muốn mua quyển sách này được không ạ
+- Tôi cần phải mua sách
+- Ở đây có bán sách không
+- Bạn có bán sách luôn không
+- Bạn bán sách có được không
+- Có bán sách không
+- Bán sách cho mình được không, cảm ơn
+- Cảm ơn bạn, mình muốn mua cuốn sách này
+- mình thích mua sách
+- Mua sách bạn ơi
+- Bán sách bạn ơi
+- cho tớ hỏi bạn có bán sách không
+- cho mình hỏi có bán sách không 
+- cho tôi hỏi có bán sách không ạ
+
+## intent: give_isbn
+- isbn của cuốn sách là [9780545162074](isbn)	
+- isbn: [9781338312911](isbn)	
+- here is isbn: [9781338345728](isbn)	
+- Đây bạn [9781338029994](isbn)	
+- Đây bạn: [9781440503252](isbn)	
+- [9780545790352](isbn)	
+- [9781338322965](isbn)	
+- [9781683642749](isbn)	
+- [9781989705308](isbn)	
+- [9791593279288](isbn)	
+- [9781449355739](isbn)	
+- [9791593279929](isbn)	
+- [9781491957660](isbn)	
+- [9790134692883](isbn)	
+- [9781491912058](isbn)	
+- [9781492051367](isbn)	
+- [9780062073488](isbn)	
+- [9780062073556](isbn)	
+- [9780525565109](isbn)	
+- [9781421513584](isbn)	
+- isbn là [9781421513591](isbn)	
+- mã số cuốn sách là [9781421513614](isbn)	
+- Của cuốn sách là [9780345461513](isbn)	
+- mã số là [9781302915162](isbn)	
+- isbn nè: [9781302915322](isbn)	
+- isbn của cuốn sách là [9789526530161](isbn)	
+- isbn [9780785837350](isbn)	
+- mã số cuốn sách: [9780393634723](isbn)	
+- cuốn sách [9781786570642](isbn)	
+- mã số này [9781465457691](isbn)	
+- cuốn sách này [9780525512196](isbn)	
+- quyển sách này [9780062316110](isbn)	
+- cái này [9781541699274](isbn)	
+- mã số quyển sách là [9789123859436](isbn)	
+- số isbn là [9781949061000](isbn)	
+- [9780593084342](isbn), isbn đây ạ	
+- [9781541768130](isbn) là isbn	
+- [9781250081346](isbn) là mã số cuốn sách	
+- [9781641770545](isbn) là isbn	
+- [9780812977561](isbn) là isbn quyển sách	
+- [9780578438108](isbn) là isbn của cuốn sách	
+- [9780143121312](isbn), isbn đây ạ	
+- [9781941631560](isbn) đây bạn	
+- [9781633883819](isbn) nè bạn	
+- [9781328546395](isbn) đây
+
+## intent: buy_book_with_isbn
+- số isbn là [9780525537090](isbn), tôi muốn mua quyển sách này
+- isbn: [9781635861822](isbn), cần mua cuốn sách này
+- tôi muốn mua cuốn số [9781529010817](isbn)
+- muốn mua cuốn sách số [9780735224155](isbn)
+- Hãy bán cho tôi cuốn sách [9780738285320](isbn)	
+- bán cuốn có isbn [9780875162577](isbn) giùm mình	
+- mua quyển sách có isbn [9781328545435](isbn)
+- mua quyển [9780134601540](isbn)
+- [9780062895813](isbn), tôi muốn mua quyển sách có isbn này	
+- Tôi cần mua quyển sách với isbn là [9781250199225](isbn)	
+- Tôi muốn mua cuốn sách mã số [9781984824684](isbn)
+- Tôi muốn mua cuốn sách, isbn là [9789387669161](isbn)
+- mua quyển sách có isbn: [9781250066114](isbn)	
+- bán giùm cuốn sách có mã số [9780062301673](isbn)
+- bán sách [9780063001879](isbn)
+- bán sách có isbn [9780593086469](isbn)	
+- bán sách với isbn: [9780735263543](isbn)	
+- bán quyển [9780316347006](isbn)
+- hi, bán giùm mình quyển sách có isbn là [9781579658762](isbn) với nhé, cảm ơn
+- Tôi muốn mua quyển sách có isbn là [9781641711449](isbn)	
+- Tôi muốn mua cuốn sách, isbn [9781786573797](isbn)	
+- mua quyển [9782080201836](isbn)	
+- [9781620975473](isbn) mua cuốn sách này	
+- mua quyển này [9780802128904](isbn)	
+- isbn là [9780307277695](isbn), vui lòng bán mình quyển đó
+- Tôi cần mua sách, isbn là [9781640971868](isbn)	
+- bán tôi cuốn [9781631218293](isbn)	
+- cho tôi hỏi mua cuốn sách [9780847846825](isbn) 	
+- bạn bán giúp mình cuốn có mã số [9781786570581](isbn) với	
+- mã số là [9781628874020](isbn), tôi muốn mua sách
+- mã số là [9781981732661](isbn), bán cho tôi với nhé
+- isbn là [9780804844277](isbn), tôi muốn mua nó	
+- isbn [9780002550291](isbn), bán cho tôi nhé	
+- [9781465441300](isbn), mua sách	
+- mua quyển [9789625934655](isbn)
+- bán cho mình quyển này: [9781107420212](isbn)
+- [9780241368879](isbn) mua sách
+- bán cuốn [9781786572899](isbn)	
+- bán quyển: [9780393239720](isbn)	
+- mua quyển: [9780393067743](isbn)	
+- bán quyển [9780804846394](isbn) cho mình với ạ
+- mua quyển có isbn [9780228826477](isbn)
+- isbn [9780465031238](isbn) bán cho mình với
+- isbn [9798601068307](isbn) muốn mua quyển này	
+- bán quyển [9781137573568](isbn) giùm tôi	
+- isbn [9780714873503](isbn), mình muốn mua
+- isbn [9791188195503](isbn), bán cho mình với
+- mình cần mua quyển có isbn [9780714874746](isbn)
+- tôi muốn mua quyển sách có mã số [9781090467584](isbn), cảm ơn	
+- isbn [9780500971079](isbn), bán cho mình	
+- bán cho tôi quyển sách có số [c](isbn)	
+- bán quyển sách có isbn là [9781640971172](isbn)
+- quyển sách có isbn là [9781634059169](isbn), tôi muốn mua
+- muốn mua quyển sách có isbn [9784805312797](isbn)
+- vui lòng bán cho tôi quyển sách mã số [9781465492067](isbn)
+- bạn vui lòng bán cho tôi quyển sách có isbn là: [9780190920555](isbn)
+- mình cần mua quyển [9784805313893](isbn)
+- bán giúp mình quyển có isbn [9781452174464](isbn)	
+- mua cuốn sách có mã số isbn [9784092270213](isbn)	
+- mua cuốn sách có mã số [9784092270114](isbn)	
+- mua cuốn sách có isbn là [9781421580807](isbn)	
+- sách có isbn là [9781421583341](isbn), cần mua
+- bán quyển có isbn là [9781421539898](isbn)	
+- vui lòng bán cho mình quyển sách có isbn là [9781421584409](isbn)	
+- bạn vui lòng bán cho mình cuốn sách có isbn là [9781661967611](isbn)	
+
+## regex: isbn
+- \b(97)[89][0-9]{10}\b
 
 ## intent: user_confirm
 - Đúng rồi
@@ -604,3 +1069,4 @@
 - pi pi
 - bibi
 - pipi bạn nha
+- tạm biệt

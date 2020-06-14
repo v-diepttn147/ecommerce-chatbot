@@ -10,7 +10,7 @@
   - utter_can_do
 * thanks: Cảm ơn bạn nha
   - utter_thanks
-* goodbye: pipi
+* goodbye: tạm biệt
   - utter_goodbye
 
 ## get balance 1

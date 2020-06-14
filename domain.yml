@@ -16,6 +16,9 @@ intents:
   - gen_address
   - send_transaction
   - inform
+  - buy_book
+  - give_isbn
+  - buy_book_with_isbn
 
 entities: 
   - book_name
@@ -26,6 +29,7 @@ entities:
   - destAddress
   - privateKey
   - amount
+  - isbn
 
 slots:
   book_name:
@@ -35,6 +39,8 @@ slots:
   userAddress:
     type: text
   transactionId:
+    type: text
+  isbn:
     type: text
   senderAddress:
     type: "unfeaturized"
@@ -68,8 +74,8 @@ responses:
     - text: "Bạn muốn kiểm tra số dư phải không?"
 
   utter_get_transaction_info:
-    - text: "Xin vui lòng cung cấp số giao dịch?"  
-
+    - text: "Xin vui lòng cung cấp số giao dịch?"
+  
   utter_is_get_transaction_info:
     - text: "Bạn muốn kiểm tra thông tin giao dịch phải không?"
 
@@ -91,16 +97,32 @@ responses:
     - text: "Hmm.. Mình không hiểu lắm, bạn có thể nói lại theo một cách khác được không :D"
 
   utter_ask_senderAddress:
-    - text: "Địa chỉ của người gửi là gì? (Bạn vui lòng ghi 'se:<địa chỉ người gửi>' nhé!)"
+    - text: "Địa chỉ của người gửi là gì? (Bạn vui lòng ghi theo cú pháp 'se:<địa chỉ người gửi>' nhé!)"
 
   utter_ask_destAddress:
-    - text: "Địa chỉ của người nhận là gì? (Bạn vui lòng ghi 'de:<địa chỉ người gửi>' nhé!)"
+    - text: "Địa chỉ của người nhận là gì? (Bạn vui lòng ghi theo cú pháp 'de:<địa chỉ người nhận>' nhé!)"
   
   utter_ask_privateKey:
     - text: "Private key của bạn là gì?"
   
   utter_ask_amount:
-    - text: "Bạn muốn gửi bao nhiêu?"
+    - text: "Bạn muốn gửi bao nhiêu? (Bạn vui lòng ghi theo cú pháp 'am:<amount>' nhé!)"
+
+  utter_ready_send_transaction:
+    - text: "Bạn vui lòng điền thông tin để thực hiện giao dịch nhé"
+
+  utter_give_balance_need_and_admin_address:
+    - text: "Cuốn sách có giá là 0.01 ETH, địa chỉ tài khoản giao dịch : 0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F"
+
+  utter_confirm_transaction:
+    - text: "Điền Transaction ID bạn vừa nhận được để xác minh nhé"
+  
+  utter_ask_isbn:
+    - text: "ISBN quyển sách bạn muốn mua là gì?"
+
+  utter_is_buy_book:
+    - text: "Có phải bạn muốn mua quyển sách này không?"
+
 
 actions:
   - utter_greet
@@ -123,6 +145,14 @@ actions:
   - action_get_transaction_info
   - action_gen_address
   - action_send_transaction
+  - utter_ready_send_transaction	
+  - utter_give_balance_need_and_admin_address	
+  - utter_confirm_transaction
+  - action_check_adbalance_and_return_key
+  - utter_ask_isbn
+  - utter_is_buy_book
+  - action_buy_book_with_isbn
+  - action_check_book_key
 
 
 forms:
