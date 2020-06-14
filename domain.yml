@@ -19,6 +19,7 @@ intents:
   - buy_book
   - give_isbn
   - buy_book_with_isbn
+  - send_file
 
 entities: 
   - book_name
@@ -123,6 +124,9 @@ responses:
   utter_is_buy_book:
     - text: "Có phải bạn muốn mua quyển sách này không?"
 
+  utter_sending_file:
+    - text: "Tệp tin đang được xử lý, xin đợi trong giây lát ..."
+
 
 actions:
   - utter_greet
@@ -153,6 +157,7 @@ actions:
   - utter_is_buy_book
   - action_buy_book_with_isbn
   - action_check_book_key
+  - action_send_file
 
 
 forms:

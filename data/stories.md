@@ -133,6 +133,11 @@
 * goodbye
   - utter_goodbye
 
+## send file
+* send_file
+  - utter_sending_file
+  - action_send_file
+
 
 ## transaction form
 * send_transaction

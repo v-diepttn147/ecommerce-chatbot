@@ -1070,3 +1070,13 @@
 - bibi
 - pipi bạn nha
 - tạm biệt
+
+## intent: send_file
+- Gửi file
+- Send file
+- Đính kèm file
+- Đính kèm tập tin
+- send tập tin
+- gửi tập tin
+- chuyển file
+- chuyển tập tin
