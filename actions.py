@@ -249,6 +249,28 @@ class ActionBuyBook(Action):
             dispatcher.utter_message('Bạn có thể nhập lại ISBN không ạ?')
         return []
 
+class ActionSendFile(Action):
+    """
+    Action to call API for sending and saving file from user, then return the value True or False
+    True if sending and saving file successfully else False
+    """
+    def name(self):
+        return "action_send_file"
+
+    def run(self, dispatcher, tracker, domain):
+        ################# START API HERE #############
+        '''
+        isSuccess is a boolean variable assigned to the value which is returned by the API, either True or False
+        '''
+        isSuccess = True # set True for testing purpose, you will need to replace the value which is returned by calling APIs
+        ################ END API HERE ################
+
+        if isSuccess:
+            dispatcher.utter_message('Gửi tệp tin thành công!')
+        else:
+            dispatcher.utter_message('Có lỗi xảy ra, xin vui lòng kiểm tra và thử lại!')
+        return []
+
 
 ############# Test function DON'T USE THIS ###################
 class ActionCheckBookKey(Action):
