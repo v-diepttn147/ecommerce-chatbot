@@ -1001,7 +1001,6 @@
 - mình cần mua quyển có isbn [9780714874746](isbn)
 - tôi muốn mua quyển sách có mã số [9781090467584](isbn), cảm ơn	
 - isbn [9780500971079](isbn), bán cho mình	
-- bán cho tôi quyển sách có số [c](isbn)	
 - bán quyển sách có isbn là [9781640971172](isbn)
 - quyển sách có isbn là [9781634059169](isbn), tôi muốn mua
 - muốn mua quyển sách có isbn [9784805312797](isbn)
@@ -1080,3 +1079,108 @@
 - gửi tập tin
 - chuyển file
 - chuyển tập tin
+
+## intent: upload_file
+- Tôi muốn upload file
+- Tôi cần upload file
+- Cần upload file
+- Muốn upload file
+- Tôi cần upload tập tin
+- Tôi muốn gửi lên một tập tin
+- Tôi cần gửi lên tập tin
+- Upload file
+- Upload tập tin
+- up file
+- up tập tin
+
+## intent: view_CFG
+- Tôi muốn xem CFG của [fn:abc](CFGname)
+- tôi muốn xem control flow graph của [fn:foo](CFGname)
+- tôi muốn xem cfg của hàm [fn:viewContract](CFGname)
+- tôi cần xem cfg hàm [fn:controller](CFGname)
+- cho mình xem cfg của hàm [fn:func](CFGname)
+- xem CFG hàm [fn:isGoal](CFGname)
+- xem cfg của [fn:fibonacci](CFGname)
+- muốn xem cfg hàm [fn:buybook](CFGname)
+- cần xem control flow graph của hàm [fn:quantity](CFGname)
+- hiển thị control flow graph của [fn:isFool](CFGname)
+- control flow graph hàm [fn:getTime](CFGname)
+- cần xem control flow graph của [fn:getMoney](CFGname)
+- xem control flow graph của hàm [fn:buyfood](CFGname)
+- xem CFG hàm [fn:getpizza](CFGname)
+- xem CFG của [fn:getCost](CFGname)
+- tôi muốn xem Control Flow Graph của hàm [fn:paybills](CFGname)
+- hiển thị Control Flow Graph của [fn:isfunc](CFGname)
+- xem Control Flow Graph hàm [fn:final](CFGname)
+- Tôi muốn xem CFG của [fn:triangle](CFGname)
+- tôi muốn xem control flow graph của [fn:function](CFGname)
+- tôi muốn xem cfg của hàm [fn:model](CFGname)
+- tôi cần xem cfg hàm [fn:extract](CFGname)
+- cho mình xem cfg của hàm [fn:creater](CFGname)
+- xem CFG hàm [fn:newFall](CFGname)
+- xem cfg của [fn:reverse](CFGname)
+- muốn xem cfg hàm [fn:isInt](CFGname)
+- cần xem control flow graph của hàm [fn:buyMoney](CFGname)
+- hiển thị control flow graph của [fn:abdef](CFGname)
+- control flow graph hàm [fn:sort](CFGname)
+- cần xem control flow graph của [fn:merge_sort](CFGname)
+- xem control flow graph của hàm [fn:make_func](CFGname)
+- xem CFG hàm [fn:please_run](CFGname)
+- xem CFG của [fn:no_bug](CFGname)
+- tôi muốn xem Control Flow Graph của hàm [fn:find_float](CFGname)
+- hiển thị Control Flow Graph của [fn:please](CFGname)
+- xem Control Flow Graph hàm [fn:run](CFGname)
+- Tôi muốn xem CFG của [fn:getCGF](CFGname)
+- tôi muốn xem control flow graph của [fn:silicon_valley](CFGname)
+- tôi muốn xem cfg của hàm [fn:play_movie](CFGname)
+- tôi cần xem cfg hàm [fn:plugin](CFGname)
+- cho mình xem cfg của hàm [fn:run_plugin](CFGname)
+- xem CFG hàm [fn:def](CFGname)
+- xem cfg của [fn:check_people](CFGname)
+- muốn xem cfg hàm [fn:reverse](CFGname)
+- cần xem control flow graph của hàm [fn:toList](CFGname)
+- hiển thị control flow graph của [fn:isFood](CFGname)
+- control flow graph hàm [fn:getAction](CFGname)
+- cần xem control flow graph của [fn:getTransaction](CFGname)
+- xem control flow graph của hàm [fn:runaway](CFGname)
+- xem CFG hàm [fn:message](CFGname)
+- xem CFG của [fn:phone](CFGname)
+- tôi muốn xem Control Flow Graph của hàm [fn:fan](CFGname)
+- hiển thị Control Flow Graph của [fn:draw](CFGname)
+- xem Control Flow Graph hàm [fn:cylinder](CFGname)
+
+## regex: CFGname
+- \bfn:[a-zA-Z_][a-zA-Z0-9_]+\b
+
+## intent: audit_contract
+- Tôi muốn xác thực hợp đồng
+- Xác thực hợp đồng
+- audit smart contract
+- Tôi cần xác thực hợp đồng
+- Cần xác thực hợp đồng
+- Xác thực hợp đồng giúp tôi
+- tôi cần audit hợp đồng thông minh
+- tôi cần xác thực contract
+- tôi muốn xác thực contract
+- xác thực hợp đồng thông minh
+- Mình muốn xác thực hợp đồng thông minh
+- Tôi muốn xác thực hợp đồng thông minh
+
+## intent: give_quantity
+- số lượng sách là [qty:](quantity)
+- số lượng là [qty:](quantity)
+- [qty:1](quantity)
+- [qty: 2](quantity)
+- [qty:3](quantity)
+- [qty: 4](quantity)
+- [qty:4](quantity)
+- [qty:6](quantity)
+- [qty:5](quantity)
+- [qty:7](quantity)
+- [qty:8](quantity)
+- [qty:9](quantity)
+- [qty:10](quantity)
+- [qty:2](quantity)
+
+## regex: quantity
+- \bqty:^\d+$\b

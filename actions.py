@@ -7,6 +7,7 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 import json
+import re
 
 from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk import ActionExecutionRejection
@@ -260,6 +261,84 @@ class ActionSendFile(Action):
         else:
             dispatcher.utter_message('Có lỗi xảy ra, xin vui lòng kiểm tra và thử lại!')
         return []
+
+class ActionUploadFile(Action):
+    """
+    Action to call API for uploading and saving file from user, then return the value True or False
+    True if uploading and saving file successfully else False
+    """
+    def name(self):
+        return "action_upload_file"
+
+    def run(self, dispatcher, tracker, domain):
+        ################# START API HERE #############
+        '''
+        isSuccess is a boolean variable assigned to the value which is returned by the API, either True or False
+        '''
+        isSuccess = True # set True for testing purpose, you will need to replace the value which is returned by calling APIs
+        ################ END API HERE ################
+
+        if isSuccess:
+            dispatcher.utter_message('Gửi lên tệp tin thành công!')
+        else:
+            dispatcher.utter_message('Có lỗi xảy ra, xin vui lòng kiểm tra và thử lại!')
+        return []
+
+class ActionViewCFG(Action):
+    """
+    Call API to view Control Flow Graph
+
+    param: CFGname: function name
+    return: Control Flow Graph
+    """
+    def name(self):
+        return "action_view_CFG"
+
+    def run(self, dispatcher, tracker, domain):
+        CFGname = tracker.get_slot('CFGname')[3:]
+        ################# START API HERE #############
+        '''
+        isSuccess is a boolean variable assigned to the value which is returned by the API, either True or False
+        '''
+        isSuccess = True # set True for testing purpose, you will need to replace the value which is returned by calling APIs
+
+        if isSuccess:
+            dispatcher.utter_message('Control Flow Graph của hàm ' + CFGname)
+        ################ END API HERE ################
+
+        else:
+            dispatcher.utter_message('Có lỗi xảy ra, xin vui lòng kiểm tra và thử lại!')
+
+        return [AllSlotsReset()]
+
+class ActionAuditContract(Action):
+    """
+    Call API to audit contract
+
+    param:  isbn (str)
+            quantity (int)
+    """
+    def name(self):
+        return "action_audit_contract"
+
+    def run(self, dispatcher, tracker, domain):
+        isbn = tracker.get_slot('isbn')
+        quantity = tracker.get_slot('quantity')
+        quantity = int(re.search(r'\d+', quantity).group())
+        ################# START API HERE #############
+        '''
+        isSuccess is a boolean variable assigned to the value which is returned by the API, either True or False
+        '''
+        isSuccess = True # set True for testing purpose, you will need to replace the value which is returned by calling APIs
+
+        if isSuccess:
+            dispatcher.utter_message('Hợp đồng thông minh cho isbn ' + isbn + ' với số lượng ' + str(quantity) + ' đã được xác thực') # Change this message after API is implemented
+        ################ END API HERE ################
+
+        else:
+            dispatcher.utter_message('Có lỗi xảy ra, xin vui lòng kiểm tra và thử lại!')
+            
+        return [AllSlotsReset()]
 
 
 ############# Test function DON'T USE THIS ###################

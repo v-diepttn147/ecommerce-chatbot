@@ -150,7 +150,7 @@ Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong
         -------------------------------
         Bạn hãy cho mình biết số ISBN của quyển sách bạn muốn mua nhé!
 
-2. Mua sách theo ISBN
+7. Mua sách theo ISBN
 
 User:   Tôi muốn mua quyển sách có ISBN 9781541768130
 
@@ -187,3 +187,31 @@ Bot:    Mình đã nhận được thông tin của bạn, giao dịch sẽ đư
         Số tiền giao dịch là 0.06ETH
         Giao dịch thành công. Mã giao dịch là 0x77fdac24a6f8da8182dfcc8f8522cb2cb661866c6de0f3577e054ac40e541fea
         Key book bạn đã mua: cdc6d5b6-a5ae-11ea-a6f2-9840bb425430
+
+8. Xem Control Flow Graph
+
+User:   Tôi muốn xem CFG của hàm fn:viewCFG
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Control Flow Graph của hàm viewCFG
+
+9. Xác thực hợp đồng
+
+User:   Tôi muốn xác thực hợp đồng
+
+Bot:    ISBN quyển sách bạn mua là gì?
+
+User:   9781541768130
+
+Bot:    Số lượng sách là bao nhiêu? (Bạn vui lòng ghi theo cú pháp 'qty:<số lượng>' nhé!) 
+
+User:   qty:01
+
+Bot:    Mình đã nhận được thông tin của bạn nhé, xin đợi trong giây lát ...
+        Hợp đồng thông minh cho isbn 9781541768130 với số lượng 1 đã được xác thực
+
+10. Upload file
+User:   Tôi muốn upload file 
+
+11. Send file
+User:   Tôi muốn gửi file

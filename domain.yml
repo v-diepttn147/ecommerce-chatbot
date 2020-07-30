@@ -20,6 +20,10 @@ intents:
   - give_isbn
   - buy_book_with_isbn
   - send_file
+  - upload_file
+  - view_CFG
+  - audit_contract
+  - give_quantity
 
 entities: 
   - book_name
@@ -31,6 +35,8 @@ entities:
   - privateKey
   - amount
   - isbn
+  - CFGname
+  - quantity
 
 slots:
   book_name:
@@ -42,6 +48,10 @@ slots:
   transactionId:
     type: text
   isbn:
+    type: text
+  CFGname:
+    type: "unfeaturized"
+  quantity:
     type: text
   senderAddress:
     type: "unfeaturized"
@@ -119,7 +129,7 @@ responses:
     - text: "Điền Transaction ID bạn vừa nhận được để xác minh nhé"
   
   utter_ask_isbn:
-    - text: "ISBN quyển sách bạn muốn mua là gì?"
+    - text: "ISBN quyển sách bạn mua là gì?"
 
   utter_is_buy_book:
     - text: "Có phải bạn muốn mua quyển sách này không?"
@@ -127,6 +137,11 @@ responses:
   utter_sending_file:
     - text: "Tệp tin đang được xử lý, xin đợi trong giây lát ..."
 
+  utter_uploading_file:
+    - text: "Tệp tin đang được xử lý, xin đợi trong giây lát... "
+
+  utter_ask_quantity:
+    - text: "Số lượng sách là bao nhiêu? (Bạn vui lòng ghi theo cú pháp 'qty:<số lượng>' nhé!)"
 
 actions:
   - utter_greet
@@ -143,6 +158,7 @@ actions:
   - utter_ask_destAddress
   - utter_ask_privateKey
   - utter_ask_amount
+  - utter_ask_quantity
   - action_book_search_name
   - action_book_search_genre
   - action_get_balance
@@ -158,6 +174,9 @@ actions:
   - action_buy_book_with_isbn
   - action_check_book_key
   - action_send_file
+  - action_upload_file
+  - action_view_CFG
+  - action_audit_contract
 
 
 forms:

@@ -138,6 +138,25 @@
   - utter_sending_file
   - action_send_file
 
+## upload file
+* upload_file
+  - utter_uploading_file
+  - action_upload_file
+
+## view Control Flow Graph
+* view_CFG
+  - utter_confirm
+  - action_view_CFG
+
+## audit smart contract
+* audit_contract
+  - utter_ask_isbn
+* give_isbn
+  - utter_ask_quantity
+* give_quantity
+  - utter_confirm
+  - action_audit_contract
+
 
 ## transaction form
 * send_transaction
