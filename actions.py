@@ -198,16 +198,10 @@ class ActionBookSearchName(Action):
             bookName = tracker.get_slot('book_name')
             ################
             bookList = DatabaseConnector.getAllBookInfo(title=bookName)
-            message = ''
+            message = DatabaseConnector.listbook2json(bookList)
             if bookList == []:
                 message = 'Không tìm thấy sách ' + bookName
-                dispatcher.utter_message(message)
             else:
-                message = 'Tìm thấy {0} cuốn sách: \n'.format(len(bookList))
-                message += '-------------------------------\n'
-                for _ in bookList:
-                    message += str(_) + '\n'
-                    message += '-------------------------------\n'
                 dispatcher.utter_message(message)
                 dispatcher.utter_message("Bạn hãy cho mình biết số ISBN của quyển sách bạn muốn mua nhé!")
             ################
@@ -236,13 +230,9 @@ class ActionBuyBook(Action):
             if bookList == []:
                 dispatcher.utter_message('Bạn có thể nhập lại ISBN không ạ?')
             else:
-                book = bookList[0]
-                bookName = book.title
-                bookPrice = str(book.price)+' BTC'
-                author = DatabaseConnector.arr2str(book.author)
                 adminAddress = '0x9fd32A78Cc1Aa71CBe2aF06e47e3F6D0e9951b5F'
-                dispatcher.utter_message('Thông tin về quyển sách ' + bookName + ':\nISBN: ' + isbn + '\nAuthor: ' + author + '\nPrice: ' + bookPrice + '\nAdmin Address ID: ' + adminAddress)
-                dispatcher.utter_message('\nVui lòng thực hiện chuyển khoản cho Admin để mua sách bạn nhé!')
+                dispatcher.utter_message(DatabaseConnector.listbook2json(bookList))
+                dispatcher.utter_message('\nVui lòng thực hiện chuyển khoản cho Admin(địa chỉ: {0}) để mua sách bạn nhé!'.format(adminAddress))
             # QUERY HERE: search book using isbn
             #############
         else:

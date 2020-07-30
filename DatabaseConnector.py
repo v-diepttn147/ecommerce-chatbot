@@ -49,6 +49,7 @@ class Book:
         self.sales_volume = None
         self.author = []
         self.category = []
+        self.image = []
 
     def __str__(self):
         s = ''
@@ -139,7 +140,7 @@ def getAllBookInfo(title=None, language=None, publisher_name=None, published_yea
         from_stmt += BOOK_TABLE
         order_stmt += 'id asc'
         if title != None:
-            where_stmt += """title = '{0}' AND """.format(title)  
+            where_stmt += """title ILIKE '%{0}%' AND """.format(title)  
         if language != None:
             where_stmt += """language = '{0}' AND """.format(language)  
         if publisher_name != None: 
@@ -170,6 +171,7 @@ def getAllBookInfo(title=None, language=None, publisher_name=None, published_yea
             newBook.category = get_category_by_id(newBook.id)
             if category not in newBook.category + [None]:
                 continue
+            newBook.image = get_image_by_id(newBook.id)
             bookList.append(newBook)
     elif not author == None:
         select_stmt += 'book_id'
@@ -184,6 +186,7 @@ def getAllBookInfo(title=None, language=None, publisher_name=None, published_yea
             newBook.category = get_category_by_id(newBook.id)
             if category not in newBook.category + [None]:
                 continue
+            newBook.image = get_image_by_id(newBook.id)
             bookList.append(newBook)
     elif not category == None:
         select_stmt += 'book_id'
@@ -196,6 +199,7 @@ def getAllBookInfo(title=None, language=None, publisher_name=None, published_yea
             newBook.setSingleValues(getSingleValuesFromId(newBook.id)[0][1:])
             newBook.author = get_author_by_id(newBook.id)
             newBook.category = get_category_by_id(newBook.id)
+            newBook.image = get_image_by_id(newBook.id)
             bookList.append(newBook)
     return bookList
     
@@ -209,3 +213,26 @@ def getKeyByISBN(isbn):
 
 def arr2str(arr):
     return reduce(lambda x, y: '{0}, {1}'.format(x,y), arr)
+
+def booklist2str(lst):
+    j = str(['''{0}"text":{1},"image":{2}{3}'''.format('{',str(_), _.image, '}') for _ in lst])
+    n = len(lst)
+    return '''{0}"num":{1},"book":{2}{3}'''.format('{',n, j, '}')
+
+
+def arr2json(arr):
+    if len(arr) == 0:
+        return '[]'
+    elif len(arr) == 1:
+        return '["{0}"]'.format(arr[0])
+    else:
+        return '[' + reduce(lambda x, y: '"{0}", "{1}"'.format(x,y), arr) + ']'
+def book2json(book):
+    return '''{0}"Title":{2},"Language":{3},"Publisher_name":{4},"Published_year":{5},"ISBN":{6},"Price":{7},"Rating_point":{8},"Num_of_rates":{9},"In_stocks":{10},"Author":{11},"Category":{12},"Image":{13}{1}'''.format('{', '}', book.title, book.language, book.publisher_name, book.published_year, book.ISBN, book.price, book.rating_point, book.num_of_rates, book.in_stocks, arr2json(book.author), arr2json(book.category), arr2json(book.image))
+def listbook2json(lst):
+    l = str([book2json(_) for _ in lst])
+    n = len(lst)
+    return '''{0}"num":{1},"book":{2}{3}'''.format('{',n,l,'}')
+
+#lst = getAllBookInfo(title='Artificial Intelligence')
+#print(listbook2json(lst))
