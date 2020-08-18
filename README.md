@@ -1,3 +1,6 @@
+This is an e-commerce chatbot built on Rasa open source. It helps users on regular activities such as check account balance, transfer money, search and buy books, etc.
+It is built specific for book selling website uses smart contract.
+
 # Follow the below instructions to run chat bot
 ## Set up API
 
